@@ -68,7 +68,7 @@ module.exports = function (grunt) {
         src:['dist','temp']
       },
       after: {
-        src:[]
+        src:['temp']
       }
     },
     less: {
