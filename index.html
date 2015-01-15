@@ -2084,18 +2084,20 @@
                                 <h2>Popovers</h2>
                             </div>
                             <div class="bottom-offset-40">
-                                <ul class="unstyled list-inline">
+                                <ul class="list-inline">
                                     <li id="popover-on-top" class="top-offset-20">
-                                        <a href="javascript:;" class="btn btn-default hidden-xs" data-html="true" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="Popover on top <button type='button' class='close pull-right visible-phone' data-dismiss='popover'>×</button>">Popover on top</a>
+                                        <div class="popover fade top in" style="display: block;position:relative"><div class="arrow"></div><h3 class="popover-title">Popover on top <button type="button" class="close pull-right visible-phone" data-dismiss="popover">×</button></h3><div class="popover-content">Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</div></div>
                                     </li>
                                     <li id="popover-on-right" class="top-offset-20">
-                                        <a href="javascript:;" class="btn btn-default hidden-xs" data-html="true" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="Popover on top <button type='button' class='close pull-right visible-phone' data-dismiss='popover'>×</button>">Popover on right</a>
+                                        <div class="popover fade right in" style="display: block;position:relative;left:20px"><div class="arrow"></div><h3 class="popover-title">Popover on right <button type="button" class="close pull-right visible-phone" data-dismiss="popover">×</button></h3><div class="popover-content">Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</div></div>
                                     </li>
+                                </ul>
+                                <ul class="list-inline">
                                     <li id="popover-on-bottom" class="top-offset-20">
-                                        <a href="javascript:;" class="btn btn-default hidden-xs" data-html="true" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="Popover on top <button type='button' class='close pull-right visible-phone' data-dismiss='popover'>×</button>">Popover on bottom</a>
+                                        <div class="popover fade bottom in" style="display: block;position:relative"><div class="arrow"></div><h3 class="popover-title">Popover on bottom <button type="button" class="close pull-right visible-phone" data-dismiss="popover">×</button></h3><div class="popover-content">Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</div></div>
                                     </li>
                                     <li id="popover-on-left" class="top-offset-20">
-                                        <a href="javascript:;" class="btn btn-default hidden-xs" data-html="true" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="Popover on top <button type='button' class='close pull-right visible-phone' data-dismiss='popover'>×</button>">Popover on left</a>
+                                        <div class="popover fade left in" style="display: block;position:relative;left:40px"><div class="arrow"></div><h3 class="popover-title">Popover on left <button type="button" class="close pull-right visible-phone" data-dismiss="popover">×</button></h3><div class="popover-content">Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</div></div>
                                     </li>
                                 </ul>
                             </div>
@@ -2371,28 +2373,46 @@
                             <div class="page-header">
                                 <h2>Tooltip</h2>
                             </div>
-                            <div id="tooltip-example-HTML">
-                                <ul class="unstyled list-inline">
-                                    <li id="tooltip-on-top" class="top-offset-10">
-                                        <a href="javascript:;" data-toggle="tooltip" title="" data-original-title="Tooltip on top with simple filler copy">Tooltip on top</a>
-                                    </li>
-                                    <li id="tooltip-on-right" class="top-offset-10">
-                                        <a href="javascript:;" data-toggle="tooltip" data-placement="right" title="" data-original-title="Tooltip on right with simple filler copy">Tooltip on right</a>
-                                    </li>
-                                    <li id="tooltip-on-bottom" class="top-offset-10">
-                                        <a href="javascript:;" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom with simple filler copy">Tooltip on bottom</a>
-                                    </li>
-                                    <li id="tooltip-on-left" class="top-offset-10">
-                                        <a href="javascript:;" data-toggle="tooltip" data-placement="left" title="" data-original-title="Tooltip on left with simple filler copy">Tooltip on left</a>
-                                    </li>
-                                </ul>
-                            </div>
+                            <style>
+                                .tooltips-html-example .tooltip {
+                                    position: relative;
+                                    display: inline-block;
+                                    margin: 10px 20px;
+                                    opacity: 1;
+                                }
+                            </style>
+                            <div class="tooltips-html-example">
+                                <div class="tooltip left" role="tooltip">
+                                  <div class="tooltip-arrow"></div>
+                                  <div class="tooltip-inner">
+                                    Tooltip on the left
+                                  </div>
+                                </div>
+                                <div class="tooltip top" role="tooltip">
+                                  <div class="tooltip-arrow"></div>
+                                  <div class="tooltip-inner">
+                                    Tooltip on the top
+                                  </div>
+                                </div>
+                                <div class="tooltip bottom" role="tooltip">
+                                  <div class="tooltip-arrow"></div>
+                                  <div class="tooltip-inner">
+                                    Tooltip on the bottom
+                                  </div>
+                                </div>
+                                <div class="tooltip right" role="tooltip">
+                                  <div class="tooltip-arrow"></div>
+                                  <div class="tooltip-inner">
+                                    Tooltip on the right
+                                  </div>
+                                </div>
+                              </div>
                         </section>
                         <section id="typography">
-                            <div class="page-header">
+                            <div class="top-offset-40">
                                 <h2>Typography</h2>
                             </div>
-                            <table class="table bottom-offset-0">
+                            <table class="table">
                                 <tbody>
                                     <tr>
                                         <td>
