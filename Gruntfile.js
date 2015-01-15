@@ -118,7 +118,8 @@ module.exports = function (grunt) {
           remove: ['script[data-remove!="false"]','link[data-remove!="false"]'],
           append: [
             {selector:'body',html:'<script src="demo.min.js"></script>'},
-            {selector:'head',html:'<link rel="stylesheet" href="dell-ui-bootstrap.min.css">'}
+            {selector:'head',html:'<!--[if !IE]><!--><link rel="stylesheet" href="dell-ui-bootstrap.min.css"><![endif]-->'},
+            {selector:'head',html:'<!--[if IE]><link rel="stylesheet" href="dell-ui-bootstrap-ie.min.css"><![endif]-->'}
           ]
         },
         src:'index.html',
@@ -164,10 +165,20 @@ module.exports = function (grunt) {
           'dist/index.html': 'dist/index.html'
         }
       }
+    },
+    bless: {
+      css: {
+        options: {
+          // Task-specific options go here.
+        },
+        files: {
+          'dist/dell-ui-bootstrap-ie.min.css': 'dist/dell-ui-bootstrap.min.css'
+        }
+      }
     }
   });
 
-  grunt.registerTask('build',['jshint','clean:before','less','dom_munger','cssmin','concat','uglify','copy','clean:after']);
+  grunt.registerTask('build',['jshint','clean:before','less','dom_munger','cssmin','concat','uglify','copy','bless','clean:after']);
   grunt.registerTask('serve', ['dom_munger:read','jshint','connect', 'watch']);
   grunt.registerTask('test',['dom_munger:read','karma:all_tests']);
 
