@@ -1,0 +1,58 @@
+
+//tabs
+//------------------------------------------------------------------------------------------
+
+ul.nav-tabs {
+    padding: 0 0 0 1px;
+    > li { 
+        margin-top:-1px;
+        > a {
+            text-align: center;
+            max-width: 200px;
+            min-width: 110px;
+            padding-bottom:10px;
+            img {
+                max-width:100%;
+            }
+            p {
+                line-height: 15px;
+                margin:0px 10px;
+                color:@dell-gray
+            }
+            h3, h4, h5{
+                margin-bottom: 0px;
+                + p {
+                    padding-bottom:15px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+@media (max-width: @screen-xs-max) {
+    ul.nav-tabs {
+        display:block;
+        width:100%;
+        > li { 
+            width:100%;
+            &.active {
+                display:block;
+                max-width:100%;
+                width:100%;
+                a,
+                a:hover {
+                    border-top: none;
+                    border-left: 4px solid @dell-blue;
+                }
+            }
+            > a {
+                max-width:100%;
+                width:100%;
+            }
+        }
+    }
+}
