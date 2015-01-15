@@ -9027,14 +9027,17 @@ ul.checktree-root label input {
   background: none;
   color: #007db8;
 }
+.nav-tabs.nav-justified > li > a {
+  border: none;
+}
 .nav-tabs.nav-justified > li.active > a,
 .nav-tabs.nav-justified > li.active > a:hover,
 .nav-tabs.nav-justified > li.active > a:focus {
-  width: 101%;
+  width: 104%;
   border-top: 4px solid #007db8;
   padding-top: 6px;
   padding-bottom: 9px;
-  margin-left: -1%;
+  margin-left: -2%;
   border-bottom: none;
 }
 .pager {

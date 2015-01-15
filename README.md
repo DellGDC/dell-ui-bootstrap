@@ -13,6 +13,5 @@ Dell specific icon font and Museo for Dell are included for use in Dell related 
 You can install a specific version with 'bower install dell-ui-bootstrap#<version>'
 ```
 #1.0.0 - Initial publish of theme
-#1.0.1 - cleaned up the build process
 ...
 ```
