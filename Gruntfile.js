@@ -95,7 +95,8 @@ module.exports = function (grunt) {
         files: [
           {src: ['theme/fonts/*.*'], dest:'dist/fonts/',flatten:true,expand:true},
           {src: ['theme/img/*.*'], dest:'dist/img/',flatten:true,expand:true},
-          {src: ['temp/dell-ui-bootstrap.css'], dest: 'dist/dell-ui-bootstrap.css'}
+          {src: ['temp/dell-ui-bootstrap.css'], dest: 'dist/dell-ui-bootstrap.css'},
+          {src: ['demo.html'], dest: 'dist/demo.html'}          
           //{src: ['bower_components/font-awesome/fonts/**'], dest: 'dist/',filter:'isFile',expand:true}
           //{src: ['bower_components/angular-ui-utils/ui-utils-ieshiv.min.js'], dest: 'dist/'},
           //{src: ['bower_components/select2/*.png','bower_components/select2/*.gif'], dest:'dist/css/',flatten:true,expand:true},
