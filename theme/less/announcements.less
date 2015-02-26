@@ -2,24 +2,24 @@
 //------------------------------------------------------------------------------------------
 
 blockquote {
-  min-height: 20px;
-  padding: 10px 15px;
-  margin-bottom: 20px;
-  background-color: @well-bg;
-  border-left: 10px solid @dell-gray;
-  position: relative;
-  h4 {
-    margin: 10px 0;
-    line-height: floor((@font-size-base * @line-height-base / 2));
-    + p {
-      margin-bottom: 10px;
-      //line-height: floor((@font-size-base * @line-height-base / 2));
+    min-height: 20px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background-color: @well-bg;
+    border-left: 10px solid @dell-gray;
+    position: relative;
+    h4 {
+        margin: 10px 0;
+        line-height: floor((@font-size-base * @line-height-base / 2));
+        + p {
+            margin-bottom: 10px;
+            //line-height: floor((@font-size-base * @line-height-base / 2));
+        }
     }
-  }
-  font-size: inherit;
-  &.pull-right {
-    border-left: none;
-    border-right: 10px solid @dell-gray;
-    width: 100%;
-  }
+    font-size: inherit;
+    &.pull-right {
+        border-left: none;
+        border-right: 10px solid @dell-gray;
+        width: 100%;
+    }
 }
