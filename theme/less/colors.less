@@ -1,7 +1,42 @@
 /*
     Colors (non Twitter Bootstrap)
-    Adds Dell brand specific colors to wells panels and text
+    Adds Dell brand specific colors to wells panels, text, rules and blockquotes.
 */
+
+.well-colors (@body-bg, @text-color, @headings-color, @link-color) {
+  background-color: @body-bg;
+  color: @text-color;
+  border-radius: 0;
+  h2, h3, h4, h5, h6 {
+    color: @headings-color;
+  }
+  .panel-heading {
+    h2, h3, h4, h5, h6 {
+      margin: 0;
+      padding-left: 10px;
+    }
+    background: @headings-color;
+    .border-top-radius(0px);
+    color: @white !important;
+  }
+  h4.well-title, h4.container-title {
+    //container-title for backward compatibility but should be deprecated
+    display: inline-block;
+    top: -25px;
+    margin-bottom: -20px;
+    padding: 5px 15px;
+    position: relative;
+    color: @white;
+    background-color: @headings-color;
+    vertical-align: baseline;
+    white-space: nowrap;
+    .border-bottom-right-radius(@border-radius-large);
+    .border-bottom-left-radius(@border-radius-large);
+  }
+}
+
+
+
 
 /* Grays */
 .gray-dark,
@@ -245,6 +280,7 @@
   border-width: @thin-stroke;
 }
 
+
 // Typographic Colors
 // NOTE: (These colors are not part of standard bootstrap)
 // ==================================================================================
@@ -370,3 +406,81 @@
   }
 }
 
+// blockquotes
+// NOTE: (These colors are not part of standard bootstrap)
+
+blockquote {
+  &.blockquote {
+      &-blue {
+          border-color: @dell-blue;
+      }
+      &-green {
+          border-color: @dell-green;
+      }
+      &-purple {
+          border-color: @dell-purple;
+      }
+      &-orange {
+          border-color: @dell-orange;
+      }
+      &-berry {
+          border-color: @dell-berry;
+      }
+      &-red {
+          border-color: @dell-red;
+      }
+      &-red-dark {
+          border-color: @dell-red-dark;
+      }
+      &-dark-blue {
+          border-color: @dell-dark-blue;
+      }
+      &-gray-dark {
+          border-color: @dell-gray-dark;
+      }
+  }
+}
+
+
+.label {
+  border-radius: 2px;
+  &-default {
+    background: @dell-gray-medium;
+  }
+  &-white {
+    background: @white;
+  }
+  &-gray-medium {
+    background: @gray;
+  }
+  &-gray {
+    background: @gray;
+  }
+  &-gray-light {
+    background: @gray-light;
+  }
+  &-gray-very-light {
+    background: @gray-lighter;
+  }
+  &-blue {
+    background: @dell-blue;
+  }
+  &-yellow {
+    background: @dell-yellow;
+  }
+  &-teal {
+    background: @dell-teal;
+  }
+  &-green {
+    background: @dell-green;
+  }
+  &-orange {
+    background: @dell-orange;
+  }
+  &-red {
+    background: @dell-red;
+  }
+  &-red-dark {
+    background: @dell-red-dark;
+  }
+}

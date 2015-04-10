@@ -4,12 +4,17 @@
 .pager {
   margin: 0px 0;
   li {
-    vertical-align: 7px;
+    vertical-align: 0;
     > a,
     > span {
       padding: 6px 12px;
       &.disabled {
         vertical-align: bottom;
+      }
+      .icon-ui-arrowleft:before,
+      .icon-ui-arrowright:before {
+        position:relative;
+        top:2px;
       }
     }
     > a:focus,
