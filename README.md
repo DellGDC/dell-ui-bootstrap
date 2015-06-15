@@ -19,5 +19,6 @@ You can install a specific version with 'bower install dell-ui-bootstrap#&lt;ver
 #1.0.4 - Made edits to demo and removed most non-bootstrap elements (except colors). Made adjustments to alerts, blockquotes, colors, buttons, component-animations, containers, form checkboxes and radios, pager, lists, pagination, panels, popovers, progress-bars, typography
 #1.0.5 - Fixed issue with spacing for multiple <p> in alerts
 #1.0.6 - Added height to .modal-backdrop
+#1.2.0 - Removed dev files from bower package and included variable and mixin fils in dist folder
 ...
 ```

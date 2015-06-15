@@ -97,7 +97,10 @@ module.exports = function (grunt) {
           {src: ['bower_components/bootstrap/dist/fonts/*.*'], dest:'dist/fonts/',flatten:true,expand:true},
           {src: ['theme/img/*.*'], dest:'dist/img/',flatten:true,expand:true},
           {src: ['temp/dell-ui-bootstrap.css'], dest: 'dist/dell-ui-bootstrap.css'},
-          {src: ['demo.html'], dest: 'dist/demo.html'}          
+          {src: ['theme/variables.less'], dest: 'dist/less/variables.less'},
+          {src: ['theme/custom-mixins.less'], dest: 'dist/less/custom-mixins.less'},
+          {src: ['theme/custom-variables.less'], dest: 'dist/less/custom-variables.less'},
+          {src: ['demo.html'], dest: 'dist/demo/demo.html'}          
           //{src: ['bower_components/font-awesome/fonts/**'], dest: 'dist/',filter:'isFile',expand:true}
           //{src: ['bower_components/angular-ui-utils/ui-utils-ieshiv.min.js'], dest: 'dist/'},
           //{src: ['bower_components/select2/*.png','bower_components/select2/*.gif'], dest:'dist/css/',flatten:true,expand:true},
@@ -120,12 +123,12 @@ module.exports = function (grunt) {
           remove: ['script[data-remove!="false"]','link[data-remove!="false"]'],
           append: [
             {selector:'body',html:'<script src="demo.min.js"></script>'},
-            {selector:'head',html:'<!--[if !IE]><!--><link rel="stylesheet" href="dell-ui-bootstrap.min.css"><![endif]-->'},
-            {selector:'head',html:'<!--[if IE]><link rel="stylesheet" href="dell-ui-bootstrap-ie.min.css"><![endif]-->'}
+            {selector:'head',html:'<!--[if !IE]><!--><link rel="stylesheet" href="../dell-ui-bootstrap.min.css"><![endif]-->'},
+            {selector:'head',html:'<!--[if IE]><link rel="stylesheet" href="../dell-ui-bootstrap-ie.min.css"><![endif]-->'}
           ]
         },
         src:'index.html',
-        dest: 'dist/index.html'
+        dest: 'dist/demo/index.html'
       }
     },
     cssmin: {
@@ -149,7 +152,7 @@ module.exports = function (grunt) {
     uglify: {
       main: {
         src: 'temp/demo.js',
-        dest:'dist/demo.min.js'
+        dest:'dist/demo/demo.min.js'
       }
     },
     htmlmin: {
