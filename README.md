@@ -9,6 +9,8 @@ Dell specific icon font and Museo for Dell are included for use in Dell related 
 
 `bower install dell-ui-bootstrap`
 
+NOTE: For usage with dell.com applications use dell-ui-components package which includes this package. `bower install dell-ui-components`
+
 ### Version history:
 You can install a specific version with 'bower install dell-ui-bootstrap#&lt;version&gt;'
 ```
@@ -20,5 +22,6 @@ You can install a specific version with 'bower install dell-ui-bootstrap#&lt;ver
 #1.0.5 - Fixed issue with spacing for multiple <p> in alerts
 #1.0.6 - Added height to .modal-backdrop
 #1.2.0 - Removed dev files from bower package and included variable and mixin fils in dist folder
+#1.2.1 - Updated to Bootstrap version 3.3.5
 ...
 ```
