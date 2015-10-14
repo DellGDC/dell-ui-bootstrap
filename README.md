@@ -1,6 +1,6 @@
 # Dell UI Bootstrap
 
-This is a Bower component for Dell's implementation and theming of [Bootstrap](http://getbootstrap.com/) CSS only. 
+This is a Bower component for Dell's implementation and theming of [Bootstrap](http://getbootstrap.com/) CSS only.
 Bootstrap.js and jQuery are only included for the demo page.
 
 Dell specific icon font and Museo for Dell are included for use in Dell related sites but it does not include Bootstrap's glyphicons.
@@ -23,5 +23,6 @@ You can install a specific version with 'bower install dell-ui-bootstrap#&lt;ver
 #1.0.6 - Added height to .modal-backdrop
 #1.2.0 - Removed dev files from bower package and included variable and mixin fils in dist folder
 #1.2.1 - Updated to Bootstrap version 3.3.5
+#1.2.2 - Updated icons fonts and added icon-ui-handle
 ...
 ```
