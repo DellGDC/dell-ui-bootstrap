@@ -9798,6 +9798,7 @@ textarea + .help-block,
 .icon-ui-dell,
 .icon-ui-expand,
 .icon-ui-grid-view,
+.icon-ui-handle,
 .icon-ui-list-view,
 .icon-ui-menucollapsed,
 .icon-ui-minus,
@@ -9852,6 +9853,9 @@ textarea + .help-block,
 }
 .icon-ui-grid-view:before {
   content: "\e607";
+}
+.icon-ui-handle:before {
+  content: "\e612";
 }
 .icon-ui-list-view:before {
   content: "\e608";
