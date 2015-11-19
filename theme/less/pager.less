@@ -3,6 +3,11 @@
 
 .pager {
   margin: 0px 0;
+  input[type=text] {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+    
   li {
     vertical-align: 0;
     > a,
@@ -11,10 +16,14 @@
       &.disabled {
         vertical-align: bottom;
       }
-      .icon-ui-arrowleft:before,
-      .icon-ui-arrowright:before {
-        position:relative;
-        top:2px;
+      .icon-ui-arrowright,
+      .icon-ui-arrowleft {
+        text-align: center;
+        vertical-align: middle;
+        &:before {
+            position:relative;
+            top:-1px;
+        }
       }
     }
     > a:focus,

@@ -1,6 +1,7 @@
 //navs
 //------------------------------------------------------------------------------------------
 
+
 .nav-tabs {
   margin-bottom: 10px;
   > li {
@@ -33,12 +34,12 @@
       > a:hover,
       > a:focus {
         border-color: transparent;
-        width: 110%;
-        margin-left: -1px;
         padding-left: 16px;
         border-top: 4px solid @dell-blue;
         padding-top: 6px;
         padding-bottom: 9px;
+        width: 102%;
+        margin-left: -1%;
       }
     }
     > a {
@@ -52,6 +53,20 @@
       }
     }
   }
+  
+  &.pull-right {
+    position:relative;
+    z-index:1;
+    + .tab-content {
+        position:relative;
+        top:-11px;
+        padding-top:10px;
+        z-index:0;
+        clear:both;
+        border-top: 1px solid @dell-gray-stroke;
+    }
+  }
+
   &.nav-justified > li > a {
     border: none;
   }
