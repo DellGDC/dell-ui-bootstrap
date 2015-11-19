@@ -10629,6 +10629,7 @@ ol.unstyled {
   border-radius: 6px;
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
 }
 .tooltip.top {
   margin-top: -5px;
