@@ -1,5 +1,5 @@
 /*!
- * Dell-UI-Bootstrap v1.2.3 (bower dell-ui-bootstrap)
+ * Dell-UI-Bootstrap v1.2.4 (bower dell-ui-bootstrap)
  * Dell's themed version of Twitter Bootstrap version 3.3.5
  * Copyright 2015 Dell, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -10629,6 +10629,7 @@ ol.unstyled {
   border-radius: 6px;
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
 }
 .tooltip.top {
   margin-top: -5px;
