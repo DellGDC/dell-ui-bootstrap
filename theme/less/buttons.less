@@ -16,20 +16,20 @@
 .btn-default {
   .button-variant(@btn-default-color; @dell-default-gray; @btn-default-border);
   &:hover,
-  &:focus
+  &:focus,
   &:active,
   &.active {
-    background: @dell-default-gray-hover;
+    background: @dell-default-gray-hover !important;
   }
 }
 
 .btn-primary {
   .button-variant(@btn-primary-color; @dell-primary-blue; @dell-primary-blue);
   &:hover,
-  &:focus
+  &:focus,
   &:active,
   &.active {
-    background: @dell-primary-blue-hover;
+    background: @dell-primary-blue-hover !important;
   }
 }
 
@@ -37,10 +37,10 @@
 .btn-success {
   .button-variant(@btn-success-color; @dell-success-green; @dell-success-green);
   &:hover,
-  &:focus
+  &:focus,
   &:active,
   &.active {
-    background: @dell-success-green-hover;
+    background: @dell-success-green-hover !important;
   }
 }
 
@@ -81,11 +81,21 @@
 // link buttons
 // -------------------------
 // disable text decoration with a dropdown toggle
-.btn-link.dropdown-toggle {
+.btn-link {
   &:focus,
   &:active,
   &:hover {
-    text-decoration: none;
+    text-decoration: underline;
+  }
+  &.dropdown-toggle {
+    &:focus,
+    &:active,
+    &:hover {
+      text-decoration: none;
+      span {
+        text-decoration: underline;
+      }
+    }
   }
 }
 

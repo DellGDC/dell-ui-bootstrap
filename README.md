@@ -24,5 +24,8 @@ You can install a specific version with 'bower install dell-ui-bootstrap#&lt;ver
 #1.2.0 - Removed dev files from bower package and included variable and mixin fils in dist folder
 #1.2.1 - Updated to Bootstrap version 3.3.5
 #1.2.2 - Updated icons fonts and added icon-ui-handle
+#1.2.3 - Made changes to typography for internationalized fonts
+#1.2.4 - Added missing background to tooltips
+#1.2.5 - Fixed issue with success button being black on focus/active
 ...
 ```
