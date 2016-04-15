@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app ng-class="{alienware:alienware}">
     <head>
         <title>Dell UI Bootstrap Theme Implementation</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta charset="utf-8"/>
         <link href="theme/dell-ui-bootstrap.less" type="text/css" rel="stylesheet/less"/>
     </head>
-    <body ng-app>
+    <body>
         <script src="http://localhost:35729/livereload.js" data-concat="false"></script>
-        <script src="bower_components/less.js/dist/less-1.6.2.js" data-concat="false"></script>
+        <script src="bower_components/less/dist/less.min.js" data-concat="false"></script>
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/angular/angular.min.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -46,11 +46,19 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                   <ul class="nav navbar-nav pull-right">
+                    <li>
+                      <a href="javascript:;" ng-click="alienware = !alienware">
+                        <span ng-show="!alienware">Show</span>
+                        <span ng-show="alienware">Hide</span>
+                        Alienware
+                      </a>
+                    </li>
                     <li><a href="https://github.com/DellGDC/dell-ui-bootstrap">Github</a></li>
                   </ul>
                 </div><!--/.nav-collapse -->
               </div>
             </nav>
+
             <div id="content" ng-include="'demo.html'"></div>
         </div>
         <script src="app.js"></script>
