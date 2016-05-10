@@ -1,4 +1,4 @@
-// updated Icons 11/6/14
+// updated Icons 05/10/16
 //------------------------------------------------------------------------------------------
 
 // icon-small
@@ -1296,6 +1296,53 @@
 // -------------------------------- IE8-icon-ui ----------------------------------
 
 // -------------------------------- /IE8-icon-ui ----------------------------------
+
+
+// icon-brand
+//----------------------------------------
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+    font-family: 'icon-brand';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+//[class^="icon-"],
+//[class*=" icon-"],
+.icon-brand-dell,
+.icon-brand-dellemc,
+.icon-brand-delltechnologies {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icon-brand' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-brand-dell:before {
+    content: "\e900";
+}
+.icon-brand-dellemc:before {
+    content: "\e901";
+}
+.icon-brand-delltechnologies:before {
+    content: "\e902";
+}
+
 
 // DELL-ui ONLY specific reviews stars styling
 
