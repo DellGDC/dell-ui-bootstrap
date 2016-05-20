@@ -5,15 +5,15 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @font-face {
-  font-family: "Roboto-Bold";
-  src: url("fonts/Roboto-bold.ttf") format('truetype');
-  font-weight: normal;
+  font-family: "Roboto-Light";
+  src: url("fonts/Roboto-Light.ttf") format('truetype');
+  font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto-Regular";
-  src: url("fonts/Roboto-regular.ttf") format('truetype');
-  font-weight: normal;
+  src: url("fonts/Roboto-Regular.ttf") format('truetype');
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
@@ -38,9 +38,158 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'icon-brand';
-  src: url('fonts/icon-brand.eot?5bkb5w');
-  src: url('fonts/icon-brand.eot?5bkb5w#iefix') format('embedded-opentype'), url('fonts/icon-brand.ttf?5bkb5w') format('truetype'), url('fonts/icon-brand.woff?5bkb5w') format('woff'), url('fonts/icon-brand.svg?5bkb5w#icon-brand') format('svg');
+  font-family: "NotoKufiArabic-Regular";
+  src: url("fonts/NotoKufiArabic-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoNaskhArabic-Regular";
+  src: url("fonts/NotoNaskhArabic-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoNastaliqUrdu-Regular";
+  src: url("fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: url("fonts/NotoSans-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansBengali-Regular";
+  src: url("fonts/NotoSansBengali-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansCJKjp-Regular";
+  src: url("fonts/NotoSansCJKjp-Regular.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansCJKjp-Regular";
+  src: url("fonts/NotoSansCJKkr-Regular.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansCJKsc-Regular";
+  src: url("fonts/NotoSansCJKsc-Regular.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansCJKtc-Regular";
+  src: url("fonts/NotoSansCJKtc-Regular.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansCypriot-Regular";
+  src: url("fonts/NotoSansCypriot-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansDevanagari-Regular";
+  src: url("fonts/NotoSansDevanagari-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansGujarati-Regular";
+  src: url("fonts/NotoSansGujarati-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansHebrew-Regular";
+  src: url("fonts/NotoSansHebrew-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansKannada-Regular";
+  src: url("fonts/NotoSansKannada-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansLinearB-Regular";
+  src: url("fonts/NotoSansLinearB-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMalayalam-Regular";
+  src: url("fonts/NotoSansMalayalam-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMalayalam-Regular";
+  src: url("fonts/NotoSansMalayalam-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMonoCJKjp-Regular";
+  src: url("fonts/NotoSansMonoCJKjp-Regular.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMonoCJKkr-Regular";
+  src: url("fonts/NotoSansMonoCJKkr-Regular.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMonoCJKsc-Regular";
+  src: url("fonts/NotoSansMonoCJKsc-Regular.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansPhagsPa-Regular";
+  src: url("fonts/NotoSansPhagsPa-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansSyriacEstrangela-Regular";
+  src: url("fonts/NotoSansSyriacEstrangela-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansSyriacWestern-Regular";
+  src: url("fonts/NotoSansSyriacWestern-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansTaiTham-Regular";
+  src: url("fonts/NotoSansTaiTham-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansTamil-Regular";
+  src: url("fonts/NotoSansTamil-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansThai-Regular";
+  src: url("fonts/NotoSansThai-Regular.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -309,7 +458,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: 'Roboto-Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+  font-family: 'Roboto-Regular', 'Roboto-Light', 'Noto Sans', 'Noto Kufi Arabic', 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Syriac Eastern', 'Noto Sans Syriac Estrangela', 'Noto Sans Syriac Western', 'Noto Sans Phags Pa', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans Cypriot', 'Noto Sans Linear B', 'Noto Sans Hebrew', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans Thai', 'Noto Sans Tai Tham', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gujarati', 'Noto Sans Bengali', 'Arial', 'Arial Unicode MS', sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #444444;
@@ -5004,6 +5153,377 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #eeeeee;
   cursor: not-allowed;
 }
+.panel {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-body {
+  padding: 15px;
+}
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-left-radius: 0px;
+}
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+.panel-title > a,
+.panel-title > small,
+.panel-title > .small,
+.panel-title > small > a,
+.panel-title > .small > a {
+  color: inherit;
+}
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #cccccc;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomright: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-bottom-left-radius: 0px;
+}
+.panel > .list-group,
+.panel > .panel-collapse > .list-group {
+  margin-bottom: 0;
+}
+.panel > .list-group .list-group-item,
+.panel > .panel-collapse > .list-group .list-group-item {
+  border-width: 1px 0;
+  border-radius: 0;
+}
+.panel > .list-group:first-child .list-group-item:first-child,
+.panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+  border-top: 0;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-left-radius: 0px;
+}
+.panel > .list-group:last-child .list-group-item:last-child,
+.panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+  border-bottom: 0;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomright: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-bottom-left-radius: 0px;
+}
+.panel > .panel-heading + .panel-collapse > .list-group .list-group-item:first-child {
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+}
+.panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+.list-group + .panel-footer {
+  border-top-width: 0;
+}
+.panel > .table,
+.panel > .table-responsive > .table,
+.panel > .panel-collapse > .table {
+  margin-bottom: 0;
+}
+.panel > .table caption,
+.panel > .table-responsive > .table caption,
+.panel > .panel-collapse > .table caption {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.panel > .table:first-child,
+.panel > .table-responsive:first-child > .table:first-child {
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-left-radius: 0px;
+}
+.panel > .table:first-child > thead:first-child > tr:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
+  border-top-left-radius: 0px;
+}
+.panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
+  border-top-right-radius: 0px;
+}
+.panel > .table:last-child,
+.panel > .table-responsive:last-child > .table:last-child {
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomright: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-bottom-left-radius: 0px;
+}
+.panel > .table:last-child > tbody:last-child > tr:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
+  border-bottom-left-radius: 0px;
+}
+.panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
+  border-bottom-right-radius: 0px;
+}
+.panel > .panel-body + .table,
+.panel > .panel-body + .table-responsive,
+.panel > .table + .panel-body,
+.panel > .table-responsive + .panel-body {
+  border-top: 1px solid #cccccc;
+}
+.panel > .table > tbody:first-child > tr:first-child th,
+.panel > .table > tbody:first-child > tr:first-child td {
+  border-top: 0;
+}
+.panel > .table-bordered,
+.panel > .table-responsive > .table-bordered {
+  border: 0;
+}
+.panel > .table-bordered > thead > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+.panel > .table-bordered > tbody > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+.panel > .table-bordered > tfoot > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+.panel > .table-bordered > thead > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+.panel > .table-bordered > tbody > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+.panel > .table-bordered > tfoot > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+  border-left: 0;
+}
+.panel > .table-bordered > thead > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+.panel > .table-bordered > tbody > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+.panel > .table-bordered > tfoot > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+.panel > .table-bordered > thead > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+.panel > .table-bordered > tbody > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+.panel > .table-bordered > tfoot > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+  border-right: 0;
+}
+.panel > .table-bordered > thead > tr:first-child > td,
+.panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
+.panel > .table-bordered > tbody > tr:first-child > td,
+.panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
+.panel > .table-bordered > thead > tr:first-child > th,
+.panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
+.panel > .table-bordered > tbody > tr:first-child > th,
+.panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
+  border-bottom: 0;
+}
+.panel > .table-bordered > tbody > tr:last-child > td,
+.panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+.panel > .table-bordered > tfoot > tr:last-child > td,
+.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td,
+.panel > .table-bordered > tbody > tr:last-child > th,
+.panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+.panel > .table-bordered > tfoot > tr:last-child > th,
+.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
+  border-bottom: 0;
+}
+.panel > .table-responsive {
+  border: 0;
+  margin-bottom: 0;
+}
+.panel-group {
+  margin-bottom: 20px;
+}
+.panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 1px;
+}
+.panel-group .panel + .panel {
+  margin-top: 5px;
+}
+.panel-group .panel-heading {
+  border-bottom: 0;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body,
+.panel-group .panel-heading + .panel-collapse > .list-group {
+  border-top: 1px solid #cccccc;
+}
+.panel-group .panel-footer {
+  border-top: 0;
+}
+.panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid #cccccc;
+}
+.panel-default {
+  border-color: #cccccc;
+}
+.panel-default > .panel-heading {
+  color: #737373;
+  background-color: #f5f5f5;
+  border-color: #cccccc;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #cccccc;
+}
+.panel-default > .panel-heading .badge {
+  color: #f5f5f5;
+  background-color: #737373;
+}
+.panel-default > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #cccccc;
+}
+.panel-primary {
+  border-color: #007db8;
+}
+.panel-primary > .panel-heading {
+  color: #ffffff;
+  background-color: #007db8;
+  border-color: #007db8;
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #007db8;
+}
+.panel-primary > .panel-heading .badge {
+  color: #007db8;
+  background-color: #ffffff;
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #007db8;
+}
+.panel-success {
+  border-color: #738903;
+}
+.panel-success > .panel-heading {
+  color: #ffffff;
+  background-color: #6ea204;
+  border-color: #738903;
+}
+.panel-success > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #738903;
+}
+.panel-success > .panel-heading .badge {
+  color: #6ea204;
+  background-color: #ffffff;
+}
+.panel-success > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #738903;
+}
+.panel-info {
+  border-color: #389586;
+}
+.panel-info > .panel-heading {
+  color: #ffffff;
+  background-color: #42aeaf;
+  border-color: #389586;
+}
+.panel-info > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #389586;
+}
+.panel-info > .panel-heading .badge {
+  color: #42aeaf;
+  background-color: #ffffff;
+}
+.panel-info > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #389586;
+}
+.panel-warning {
+  border-color: #d6390f;
+}
+.panel-warning > .panel-heading {
+  color: #ffffff;
+  background-color: #ee6411;
+  border-color: #d6390f;
+}
+.panel-warning > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #d6390f;
+}
+.panel-warning > .panel-heading .badge {
+  color: #ee6411;
+  background-color: #ffffff;
+}
+.panel-warning > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #d6390f;
+}
+.panel-danger {
+  border-color: #c12120;
+}
+.panel-danger > .panel-heading {
+  color: #ffffff;
+  background-color: #d74324;
+  border-color: #c12120;
+}
+.panel-danger > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #c12120;
+}
+.panel-danger > .panel-heading .badge {
+  color: #d74324;
+  background-color: #ffffff;
+}
+.panel-danger > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #c12120;
+}
 .label {
   display: inline;
   padding: .2em .6em .3em;
@@ -5606,377 +6126,6 @@ button.list-group-item-danger.active:focus {
   margin-bottom: 0;
   line-height: 1.3;
 }
-.panel {
-  margin-bottom: 20px;
-  background-color: #ffffff;
-  border: 1px solid transparent;
-  border-radius: 1px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-.panel-body {
-  padding: 15px;
-}
-.panel-heading {
-  padding: 10px 15px;
-  border-bottom: 1px solid transparent;
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-radius-topright: 0px;
-  border-top-right-radius: 0px;
-  -webkit-border-top-left-radius: 0px;
-  -moz-border-radius-topleft: 0px;
-  border-top-left-radius: 0px;
-}
-.panel-heading > .dropdown .dropdown-toggle {
-  color: inherit;
-}
-.panel-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 16px;
-  color: inherit;
-}
-.panel-title > a,
-.panel-title > small,
-.panel-title > .small,
-.panel-title > small > a,
-.panel-title > .small > a {
-  color: inherit;
-}
-.panel-footer {
-  padding: 10px 15px;
-  background-color: #f5f5f5;
-  border-top: 1px solid #cccccc;
-  -webkit-border-bottom-right-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  border-bottom-right-radius: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  -moz-border-radius-bottomleft: 0px;
-  border-bottom-left-radius: 0px;
-}
-.panel > .list-group,
-.panel > .panel-collapse > .list-group {
-  margin-bottom: 0;
-}
-.panel > .list-group .list-group-item,
-.panel > .panel-collapse > .list-group .list-group-item {
-  border-width: 1px 0;
-  border-radius: 0;
-}
-.panel > .list-group:first-child .list-group-item:first-child,
-.panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
-  border-top: 0;
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-radius-topright: 0px;
-  border-top-right-radius: 0px;
-  -webkit-border-top-left-radius: 0px;
-  -moz-border-radius-topleft: 0px;
-  border-top-left-radius: 0px;
-}
-.panel > .list-group:last-child .list-group-item:last-child,
-.panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
-  border-bottom: 0;
-  -webkit-border-bottom-right-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  border-bottom-right-radius: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  -moz-border-radius-bottomleft: 0px;
-  border-bottom-left-radius: 0px;
-}
-.panel > .panel-heading + .panel-collapse > .list-group .list-group-item:first-child {
-  -webkit-border-top-right-radius: 0;
-  -moz-border-radius-topright: 0;
-  border-top-right-radius: 0;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topleft: 0;
-  border-top-left-radius: 0;
-}
-.panel-heading + .list-group .list-group-item:first-child {
-  border-top-width: 0;
-}
-.list-group + .panel-footer {
-  border-top-width: 0;
-}
-.panel > .table,
-.panel > .table-responsive > .table,
-.panel > .panel-collapse > .table {
-  margin-bottom: 0;
-}
-.panel > .table caption,
-.panel > .table-responsive > .table caption,
-.panel > .panel-collapse > .table caption {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.panel > .table:first-child,
-.panel > .table-responsive:first-child > .table:first-child {
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-radius-topright: 0px;
-  border-top-right-radius: 0px;
-  -webkit-border-top-left-radius: 0px;
-  -moz-border-radius-topleft: 0px;
-  border-top-left-radius: 0px;
-}
-.panel > .table:first-child > thead:first-child > tr:first-child,
-.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
-.panel > .table:first-child > tbody:first-child > tr:first-child,
-.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-}
-.panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
-.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
-.panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
-.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
-.panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
-.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
-.panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
-.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
-  border-top-left-radius: 0px;
-}
-.panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
-.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
-.panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
-.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
-.panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
-.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
-.panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
-.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
-  border-top-right-radius: 0px;
-}
-.panel > .table:last-child,
-.panel > .table-responsive:last-child > .table:last-child {
-  -webkit-border-bottom-right-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  border-bottom-right-radius: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  -moz-border-radius-bottomleft: 0px;
-  border-bottom-left-radius: 0px;
-}
-.panel > .table:last-child > tbody:last-child > tr:last-child,
-.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
-.panel > .table:last-child > tfoot:last-child > tr:last-child,
-.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child {
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-.panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
-.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
-.panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
-.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
-.panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
-.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
-.panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
-.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
-  border-bottom-left-radius: 0px;
-}
-.panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
-.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
-.panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
-.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
-.panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
-.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
-.panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
-.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
-  border-bottom-right-radius: 0px;
-}
-.panel > .panel-body + .table,
-.panel > .panel-body + .table-responsive,
-.panel > .table + .panel-body,
-.panel > .table-responsive + .panel-body {
-  border-top: 1px solid #cccccc;
-}
-.panel > .table > tbody:first-child > tr:first-child th,
-.panel > .table > tbody:first-child > tr:first-child td {
-  border-top: 0;
-}
-.panel > .table-bordered,
-.panel > .table-responsive > .table-bordered {
-  border: 0;
-}
-.panel > .table-bordered > thead > tr > th:first-child,
-.panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
-.panel > .table-bordered > tbody > tr > th:first-child,
-.panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
-.panel > .table-bordered > tfoot > tr > th:first-child,
-.panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
-.panel > .table-bordered > thead > tr > td:first-child,
-.panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
-.panel > .table-bordered > tbody > tr > td:first-child,
-.panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
-.panel > .table-bordered > tfoot > tr > td:first-child,
-.panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
-  border-left: 0;
-}
-.panel > .table-bordered > thead > tr > th:last-child,
-.panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
-.panel > .table-bordered > tbody > tr > th:last-child,
-.panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
-.panel > .table-bordered > tfoot > tr > th:last-child,
-.panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
-.panel > .table-bordered > thead > tr > td:last-child,
-.panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
-.panel > .table-bordered > tbody > tr > td:last-child,
-.panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
-.panel > .table-bordered > tfoot > tr > td:last-child,
-.panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
-  border-right: 0;
-}
-.panel > .table-bordered > thead > tr:first-child > td,
-.panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
-.panel > .table-bordered > tbody > tr:first-child > td,
-.panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
-.panel > .table-bordered > thead > tr:first-child > th,
-.panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
-.panel > .table-bordered > tbody > tr:first-child > th,
-.panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
-  border-bottom: 0;
-}
-.panel > .table-bordered > tbody > tr:last-child > td,
-.panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
-.panel > .table-bordered > tfoot > tr:last-child > td,
-.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td,
-.panel > .table-bordered > tbody > tr:last-child > th,
-.panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
-.panel > .table-bordered > tfoot > tr:last-child > th,
-.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
-  border-bottom: 0;
-}
-.panel > .table-responsive {
-  border: 0;
-  margin-bottom: 0;
-}
-.panel-group {
-  margin-bottom: 20px;
-}
-.panel-group .panel {
-  margin-bottom: 0;
-  border-radius: 1px;
-}
-.panel-group .panel + .panel {
-  margin-top: 5px;
-}
-.panel-group .panel-heading {
-  border-bottom: 0;
-}
-.panel-group .panel-heading + .panel-collapse > .panel-body,
-.panel-group .panel-heading + .panel-collapse > .list-group {
-  border-top: 1px solid #cccccc;
-}
-.panel-group .panel-footer {
-  border-top: 0;
-}
-.panel-group .panel-footer + .panel-collapse .panel-body {
-  border-bottom: 1px solid #cccccc;
-}
-.panel-default {
-  border-color: #cccccc;
-}
-.panel-default > .panel-heading {
-  color: #737373;
-  background-color: #f5f5f5;
-  border-color: #cccccc;
-}
-.panel-default > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #cccccc;
-}
-.panel-default > .panel-heading .badge {
-  color: #f5f5f5;
-  background-color: #737373;
-}
-.panel-default > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #cccccc;
-}
-.panel-primary {
-  border-color: #007db8;
-}
-.panel-primary > .panel-heading {
-  color: #ffffff;
-  background-color: #007db8;
-  border-color: #007db8;
-}
-.panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #007db8;
-}
-.panel-primary > .panel-heading .badge {
-  color: #007db8;
-  background-color: #ffffff;
-}
-.panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #007db8;
-}
-.panel-success {
-  border-color: #738903;
-}
-.panel-success > .panel-heading {
-  color: #ffffff;
-  background-color: #6ea204;
-  border-color: #738903;
-}
-.panel-success > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #738903;
-}
-.panel-success > .panel-heading .badge {
-  color: #6ea204;
-  background-color: #ffffff;
-}
-.panel-success > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #738903;
-}
-.panel-info {
-  border-color: #389586;
-}
-.panel-info > .panel-heading {
-  color: #ffffff;
-  background-color: #42aeaf;
-  border-color: #389586;
-}
-.panel-info > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #389586;
-}
-.panel-info > .panel-heading .badge {
-  color: #42aeaf;
-  background-color: #ffffff;
-}
-.panel-info > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #389586;
-}
-.panel-warning {
-  border-color: #d6390f;
-}
-.panel-warning > .panel-heading {
-  color: #ffffff;
-  background-color: #ee6411;
-  border-color: #d6390f;
-}
-.panel-warning > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #d6390f;
-}
-.panel-warning > .panel-heading .badge {
-  color: #ee6411;
-  background-color: #ffffff;
-}
-.panel-warning > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #d6390f;
-}
-.panel-danger {
-  border-color: #c12120;
-}
-.panel-danger > .panel-heading {
-  color: #ffffff;
-  background-color: #d74324;
-  border-color: #c12120;
-}
-.panel-danger > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #c12120;
-}
-.panel-danger > .panel-heading .badge {
-  color: #d74324;
-  background-color: #ffffff;
-}
-.panel-danger > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #c12120;
-}
 .well {
   min-height: 20px;
   padding: 19px;
@@ -6152,7 +6301,7 @@ button.close {
   position: absolute;
   z-index: 1030;
   display: block;
-  font-family: 'Roboto-Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+  font-family: 'Roboto-Regular', 'Roboto-Light', 'Noto Sans', 'Noto Kufi Arabic', 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Syriac Eastern', 'Noto Sans Syriac Estrangela', 'Noto Sans Syriac Western', 'Noto Sans Phags Pa', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans Cypriot', 'Noto Sans Linear B', 'Noto Sans Hebrew', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans Thai', 'Noto Sans Tai Tham', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gujarati', 'Noto Sans Bengali', 'Arial', 'Arial Unicode MS', sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6270,7 +6419,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: 'Roboto-Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+  font-family: 'Roboto-Regular', 'Roboto-Light', 'Noto Sans', 'Noto Kufi Arabic', 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Syriac Eastern', 'Noto Sans Syriac Estrangela', 'Noto Sans Syriac Western', 'Noto Sans Phags Pa', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans Cypriot', 'Noto Sans Linear B', 'Noto Sans Hebrew', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans Thai', 'Noto Sans Tai Tham', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gujarati', 'Noto Sans Bengali', 'Arial', 'Arial Unicode MS', sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -10054,7 +10203,7 @@ label {
 }
 .label {
   font-weight: normal;
-  font-family: 'Roboto-Bold', 'Tanseek Modern Book', 'M Yuen PRC SemiBold', 'M Yuen HK Medium ', 'Rockwell WGL Light', 'David Hadash Sans Medium', 'Motoya Cedar W3', 'Yoon Design - YD Gothic 200 230', 'DilleniaUPC Regular', 'Shree Devanagari 0714 Regular', 'Latha Regular', 'Gautami Regular', 'Tunga Regular', 'Kartika Regular', 'Shruti Regular', 'Vrinda Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+  font-family: 'Roboto-Regular', 'Roboto-Light', 'Noto Sans', 'Noto Kufi Arabic', 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Syriac Eastern', 'Noto Sans Syriac Estrangela', 'Noto Sans Syriac Western', 'Noto Sans Phags Pa', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans Cypriot', 'Noto Sans Linear B', 'Noto Sans Hebrew', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans Thai', 'Noto Sans Tai Tham', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gujarati', 'Noto Sans Bengali', 'Arial', 'Arial Unicode MS', sans-serif;
 }
 ul.unstyled,
 ol.unstyled {
@@ -10064,7 +10213,7 @@ ol.unstyled {
 }
 dt {
   font-weight: normal;
-  font-family: 'Roboto-Bold', 'Tanseek Modern Book', 'M Yuen PRC SemiBold', 'M Yuen HK Medium ', 'Rockwell WGL Light', 'David Hadash Sans Medium', 'Motoya Cedar W3', 'Yoon Design - YD Gothic 200 230', 'DilleniaUPC Regular', 'Shree Devanagari 0714 Regular', 'Latha Regular', 'Gautami Regular', 'Tunga Regular', 'Kartika Regular', 'Shruti Regular', 'Vrinda Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+  font-family: 'Roboto-Regular', 'Roboto-Light', 'Noto Sans', 'Noto Kufi Arabic', 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Syriac Eastern', 'Noto Sans Syriac Estrangela', 'Noto Sans Syriac Western', 'Noto Sans Phags Pa', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans Cypriot', 'Noto Sans Linear B', 'Noto Sans Hebrew', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans Thai', 'Noto Sans Tai Tham', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gujarati', 'Noto Sans Bengali', 'Arial', 'Arial Unicode MS', sans-serif;
 }
 .modal-header {
   padding: 15px 0;
@@ -10485,7 +10634,7 @@ dt {
   margin: 0;
   padding: 0 0 10px 0;
   font-size: 16px;
-  font-family: 'Roboto-Bold', 'Tanseek Modern Book', 'M Yuen PRC SemiBold', 'M Yuen HK Medium ', 'Rockwell WGL Light', 'David Hadash Sans Medium', 'Motoya Cedar W3', 'Yoon Design - YD Gothic 200 230', 'DilleniaUPC Regular', 'Shree Devanagari 0714 Regular', 'Latha Regular', 'Gautami Regular', 'Tunga Regular', 'Kartika Regular', 'Shruti Regular', 'Vrinda Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+  font-family: 'Roboto-Regular', 'Roboto-Light', 'Noto Sans', 'Noto Kufi Arabic', 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Syriac Eastern', 'Noto Sans Syriac Estrangela', 'Noto Sans Syriac Western', 'Noto Sans Phags Pa', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans Cypriot', 'Noto Sans Linear B', 'Noto Sans Hebrew', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans Thai', 'Noto Sans Tai Tham', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gujarati', 'Noto Sans Bengali', 'Arial', 'Arial Unicode MS', sans-serif;
   font-weight: bold;
   line-height: 18px;
   border-bottom: 1px solid #aaaaaa;
@@ -10691,7 +10840,7 @@ dt {
 }
 th {
   font-weight: normal;
-  font-family: 'Roboto-Bold', 'Tanseek Modern Book', 'M Yuen PRC SemiBold', 'M Yuen HK Medium ', 'Rockwell WGL Light', 'David Hadash Sans Medium', 'Motoya Cedar W3', 'Yoon Design - YD Gothic 200 230', 'DilleniaUPC Regular', 'Shree Devanagari 0714 Regular', 'Latha Regular', 'Gautami Regular', 'Tunga Regular', 'Kartika Regular', 'Shruti Regular', 'Vrinda Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+  font-family: 'Roboto-Regular', 'Roboto-Light', 'Noto Sans', 'Noto Kufi Arabic', 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Syriac Eastern', 'Noto Sans Syriac Estrangela', 'Noto Sans Syriac Western', 'Noto Sans Phags Pa', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans Cypriot', 'Noto Sans Linear B', 'Noto Sans Hebrew', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans Thai', 'Noto Sans Tai Tham', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gujarati', 'Noto Sans Bengali', 'Arial', 'Arial Unicode MS', sans-serif;
 }
 .tooltip {
   font-size: 12px;
@@ -10836,16 +10985,14 @@ h1,
 h2,
 .h2,
 h3,
-.h3 {
-  font-family: 'Roboto-Bold', 'Tanseek Modern Book', 'M Yuen PRC SemiBold', 'M Yuen HK Medium ', 'Rockwell WGL Light', 'David Hadash Sans Medium', 'Motoya Cedar W3', 'Yoon Design - YD Gothic 200 230', 'DilleniaUPC Regular', 'Shree Devanagari 0714 Regular', 'Latha Regular', 'Gautami Regular', 'Tunga Regular', 'Kartika Regular', 'Shruti Regular', 'Vrinda Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
-}
+.h3,
 h4,
 .h4,
 h5,
 .h5,
 h6,
 .h6 {
-  font-family: 'Roboto-Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+  font-family: 'Roboto-Regular', 'Roboto-Light', 'Noto Sans', 'Noto Kufi Arabic', 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Syriac Eastern', 'Noto Sans Syriac Estrangela', 'Noto Sans Syriac Western', 'Noto Sans Phags Pa', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans Cypriot', 'Noto Sans Linear B', 'Noto Sans Hebrew', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans Thai', 'Noto Sans Tai Tham', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gujarati', 'Noto Sans Bengali', 'Arial', 'Arial Unicode MS', sans-serif;
 }
 /* Header - title - NOTE: not part of Bootstrap*/
 .title {
@@ -10869,47 +11016,62 @@ h6,
   .h1 {
     font-size: 32px;
     line-height: 40px;
+    font-weight: 300;
+    font-family: Roboto-Light;
   }
   h2,
   .h2 {
     font-size: 28px;
     line-height: 32px;
+    font-weight: 300;
+    font-family: Roboto-Light;
   }
   h3.feature,
   .h3.feature {
-    font-family: 'Roboto-Bold', 'Tanseek Modern Book', 'M Yuen PRC SemiBold', 'M Yuen HK Medium ', 'Rockwell WGL Light', 'David Hadash Sans Medium', 'Motoya Cedar W3', 'Yoon Design - YD Gothic 200 230', 'DilleniaUPC Regular', 'Shree Devanagari 0714 Regular', 'Latha Regular', 'Gautami Regular', 'Tunga Regular', 'Kartika Regular', 'Shruti Regular', 'Vrinda Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+    font-family: 'Roboto-Regular', 'Roboto-Light', 'Noto Sans', 'Noto Kufi Arabic', 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Syriac Eastern', 'Noto Sans Syriac Estrangela', 'Noto Sans Syriac Western', 'Noto Sans Phags Pa', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans Cypriot', 'Noto Sans Linear B', 'Noto Sans Hebrew', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans Thai', 'Noto Sans Tai Tham', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gujarati', 'Noto Sans Bengali', 'Arial', 'Arial Unicode MS', sans-serif;
     font-size: 24px;
     line-height: 28px;
+    font-weight: 300;
+    font-family: Roboto-Light;
   }
   h3,
   .h3 {
     font-size: 20px;
     line-height: 24px;
+    font-weight: 300;
+    font-family: Roboto-Light;
   }
   h4,
   .h4 {
     font-size: 18px;
     line-height: 22px;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
   h5,
   .h5 {
     font-size: 16px;
     line-height: 20px;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
   .bold-16 {
     font-size: 16px;
     line-height: 20px;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
   .bold-14 {
     font-size: 14px;
     line-height: 20px;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
   .bold-12 {
     font-size: 12px;
     line-height: 15px;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -10917,47 +11079,62 @@ h6,
   .h1 {
     font-size: 30px;
     line-height: 36px;
+    font-weight: 300;
+    font-family: Roboto-Light;
   }
   h2,
   .h2 {
     font-size: 26px;
     line-height: 30px;
+    font-weight: 300;
+    font-family: Roboto-Light;
   }
   h3.feature,
   .h3.feature {
-    font-family: 'Roboto-Bold', 'Tanseek Modern Book', 'M Yuen PRC SemiBold', 'M Yuen HK Medium ', 'Rockwell WGL Light', 'David Hadash Sans Medium', 'Motoya Cedar W3', 'Yoon Design - YD Gothic 200 230', 'DilleniaUPC Regular', 'Shree Devanagari 0714 Regular', 'Latha Regular', 'Gautami Regular', 'Tunga Regular', 'Kartika Regular', 'Shruti Regular', 'Vrinda Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+    font-family: 'Roboto-Regular', 'Roboto-Light', 'Noto Sans', 'Noto Kufi Arabic', 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Syriac Eastern', 'Noto Sans Syriac Estrangela', 'Noto Sans Syriac Western', 'Noto Sans Phags Pa', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans Cypriot', 'Noto Sans Linear B', 'Noto Sans Hebrew', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans Thai', 'Noto Sans Tai Tham', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gujarati', 'Noto Sans Bengali', 'Arial', 'Arial Unicode MS', sans-serif;
     font-size: 22px;
     line-height: 26px;
+    font-weight: 300;
+    font-family: Roboto-Light;
   }
   h3,
   .h3 {
     font-size: 20px;
     line-height: 24px;
+    font-weight: 300;
+    font-family: Roboto-Light;
   }
   h4,
   .h4 {
     font-size: 18px;
     line-height: 22px;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
   h5,
   .h5 {
     font-size: 16px;
     line-height: 20px;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
   .bold-16 {
     font-size: 16px;
     line-height: 20px;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
   .bold-14 {
     font-size: 14px;
     line-height: 20px;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
   .bold-12 {
     font-size: 12px;
     line-height: 15px;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
 }
 @media (max-width: 767px) {
@@ -10965,52 +11142,69 @@ h6,
   .h1 {
     font-size: 24px;
     line-height: 28px;
+    font-weight: 300;
+    font-family: Roboto-Light;
   }
   h2,
   .h2 {
     font-size: 20px;
     line-height: 24px;
+    font-weight: 300;
+    font-family: Roboto-Light;
   }
   h3.feature,
   .h3.feature {
-    font-family: 'Roboto-Bold', 'Tanseek Modern Book', 'M Yuen PRC SemiBold', 'M Yuen HK Medium ', 'Rockwell WGL Light', 'David Hadash Sans Medium', 'Motoya Cedar W3', 'Yoon Design - YD Gothic 200 230', 'DilleniaUPC Regular', 'Shree Devanagari 0714 Regular', 'Latha Regular', 'Gautami Regular', 'Tunga Regular', 'Kartika Regular', 'Shruti Regular', 'Vrinda Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+    font-family: 'Roboto-Regular', 'Roboto-Light', 'Noto Sans', 'Noto Kufi Arabic', 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Syriac Eastern', 'Noto Sans Syriac Estrangela', 'Noto Sans Syriac Western', 'Noto Sans Phags Pa', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans Cypriot', 'Noto Sans Linear B', 'Noto Sans Hebrew', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans Thai', 'Noto Sans Tai Tham', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gujarati', 'Noto Sans Bengali', 'Arial', 'Arial Unicode MS', sans-serif;
     font-size: 18px;
     line-height: 22px;
+    font-weight: 300;
+    font-family: Roboto-Light;
   }
   h3,
   .h3 {
     font-size: 17px;
     line-height: 20px;
+    font-weight: 300;
+    font-family: Roboto-Light;
   }
   h4,
   .h4 {
     font-size: 16px;
     line-height: 20px;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
   h5,
   .h5 {
     font-size: 14px;
     line-height: 20px;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
   .bold-16 {
     font-size: 16px;
     line-height: 20px;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
   .bold-14 {
     font-size: 14px;
     line-height: 20px;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
   .bold-12 {
     font-size: 12px;
     line-height: 15px;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: Roboto-Regular;
   }
 }
 p small {
   font-size: 85%;
   line-height: 15px;
+  font-weight: 400;
+  font-family: Roboto-Regular;
 }
 .text-rtl {
   direction: rtl;
@@ -11018,7 +11212,7 @@ p small {
 }
 strong {
   font-weight: normal;
-  font-family: 'Roboto-Bold', 'Tanseek Modern Book', 'M Yuen PRC SemiBold', 'M Yuen HK Medium ', 'Rockwell WGL Light', 'David Hadash Sans Medium', 'Motoya Cedar W3', 'Yoon Design - YD Gothic 200 230', 'DilleniaUPC Regular', 'Shree Devanagari 0714 Regular', 'Latha Regular', 'Gautami Regular', 'Tunga Regular', 'Kartika Regular', 'Shruti Regular', 'Vrinda Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+  font-family: 'Roboto-Regular', 'Roboto-Light', 'Noto Sans', 'Noto Kufi Arabic', 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Syriac Eastern', 'Noto Sans Syriac Estrangela', 'Noto Sans Syriac Western', 'Noto Sans Phags Pa', 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans Cypriot', 'Noto Sans Linear B', 'Noto Sans Hebrew', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Noto Sans Thai', 'Noto Sans Tai Tham', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gujarati', 'Noto Sans Bengali', 'Arial', 'Arial Unicode MS', sans-serif;
 }
 /* Add Component LESS Above */
 /*
