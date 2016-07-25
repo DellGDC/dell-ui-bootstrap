@@ -19,9 +19,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-family: @font-family-serif;
 }
 
-//h4, .h4, h5, .h5, h6, .h6 {
-//    font-family: @font-family-sans-serif;
-//}
 
 /* Header - title - NOTE: not part of Bootstrap*/
 .title {
@@ -268,4 +265,302 @@ p small {
 strong {
     font-weight: normal;
     font-family: @font-family-serif;
+}
+
+
+//doubleByte
+.doubleByte() {
+    // Typography for Desktop
+    // Medium devices (desktops, 992px and up)
+    @media (min-width: @screen-md-min) {
+        h1, .h1 {
+            font-size: 32px; // ~32px
+            line-height: ceil((@line-height-base * 33.59px)); // ~48px
+            font-weight: normal;
+            font-family: @font-family-sans-serif;
+        }
+
+        h2, .h2 {
+            font-size: 28px; // ~28px
+            line-height: ceil((@line-height-base * 23.79px)); // ~34px
+            font-weight: normal;
+            font-family: @font-family-sans-serif;
+        }
+
+        h3, .h3 {
+            &.feature {
+                font-size: 24px; // ~24px
+                line-height: floor((@line-height-base * 20.99px)); // ~30px
+                font-weight: normal;
+                font-family: @font-family-sans-serif;
+            }
+        }
+
+        h3, .h3 {
+            font-size: 21px; // ~21px
+            line-height: ceil((@line-height-base * 18.19px)); // ~26px
+            font-weight: normal;
+            font-family: @font-family-sans-serif;
+        }
+
+        h4, .h4 {
+            font-size: 19px; // ~19px
+            line-height: ceil((@line-height-base * 17.49px)); // ~25px
+            font-weight: normal;
+            font-family: @font-family-sans-serif;
+        }
+
+        h5, .h5 {
+            font-size: 17px; // ~17px
+            line-height: ceil((@line-height-base * 16.09px)); // ~23px
+            font-weight: bold;
+            font-family: @font-family-sans-serif;
+        }
+
+        .bold-17 {
+            font-size: 17px; // ~17px
+            line-height: ceil((@line-height-base * 16.09px)); // ~23px
+            font-weight: bold;
+            font-family: @font-family-sans-serif;
+        }
+
+        .bold-15 {
+            font-size: 15px; // ~15px
+            line-height: ceil((@line-height-base * 16.09px)); // ~23px
+            font-weight: bold;
+            font-family: @font-family-sans-serif;
+        }
+
+        .bold-13 {
+            font-size: 13px !important; // ~13px
+            line-height: ceil((@line-height-base * 12.59px)); // ~18px
+            font-weight: bold;
+            font-family: @font-family-sans-serif;
+        }
+    }
+
+    // Typography for Tablet
+    // Small devices (tablets, 768px and up)
+    @media (min-width: @screen-sm-min)and(max-width: @screen-sm-max) {
+        h1, .h1 {
+            font-size: 30px; // ~30px
+            line-height: ceil((@line-height-base * 30.79px)); // ~44px
+            font-weight: normal;
+            font-family: @font-family-sans-serif;
+        }
+
+        h2, .h2 {
+            font-size: 28px; // ~28px
+            line-height: ceil((@line-height-base * 23.79px)); // ~34px
+            font-weight: normal;
+            font-family: @font-family-sans-serif;
+        }
+
+        h3, .h3 {
+            &.feature {
+                font-size: 24px; // ~24px
+                line-height: floor((@line-height-base * 20.99px)); // ~30px
+                font-weight: normal;
+                font-family: @font-family-sans-serif;
+            }
+        }
+
+        h3, .h3 {
+            font-size: 21px; // ~21px
+            line-height: ceil((@line-height-base * 18.19px)); // ~26px
+            font-weight: normal;
+            font-family: @font-family-sans-serif;
+        }
+
+        h4, .h4 {
+            font-size: 19px; // ~19px
+            line-height: ceil((@line-height-base * 17.49px)); // ~25px
+            font-weight: normal;
+            font-family: @font-family-sans-serif;
+        }
+
+        h5, .h5 {
+            font-size: 17px; // ~17px
+            line-height: ceil((@line-height-base * 16.09px)); // ~23px
+            font-weight: bold;
+            font-family: @font-family-sans-serif;
+        }
+
+        .bold-17 {
+            font-size: 17px; // ~17px
+            line-height: ceil((@line-height-base * 16.09px)); // ~23px
+            font-weight: bold;
+            font-family: @font-family-sans-serif;
+        }
+
+        .bold-15 {
+            font-size: 15px; // ~15px
+            line-height: ceil((@line-height-base * 16.09px)); // ~23px
+            font-weight: bold;
+            font-family: @font-family-sans-serif;
+        }
+
+        .bold-13 {
+            font-size: 13px !important; // ~13px
+            line-height: ceil((@line-height-base * 12.59px)); // ~18px
+            font-weight: bold;
+            font-family: @font-family-sans-serif;
+        }
+    }
+
+    // Typography for Extra small devices (phones, less than 768px)
+    @media (max-width: @screen-xs-max) {
+
+        h1, .h1 {
+            font-size: 24px; // ~24px
+            line-height: floor((@line-height-base * 25.19px)); // ~36px
+            font-weight: normal;
+            font-family: @font-family-sans-serif;
+        }
+
+        h2, .h2 {
+            font-size: 20px; // ~20px
+            line-height: floor((@line-height-base * 18.19px)); // ~26px
+            font-weight: normal;
+            font-family: @font-family-sans-serif;
+        }
+
+        h3, .h3 {
+            &.feature {
+                font-size: 18px; // ~18px
+                line-height: floor((@line-height-base * 16.79px)); // ~24px
+                font-weight: normal;
+                font-family: @font-family-sans-serif;
+            }
+        }
+
+        h3, .h3 {
+            font-size: 18px; // ~18px
+            line-height: floor((@line-height-base * 16.79px)); // ~24px
+            font-weight: normal;
+            font-family: @font-family-sans-serif;
+        }
+
+        h4, .h4 {
+            font-size: 17px; // ~17px
+            line-height: ceil((@line-height-base * 16.09px)); // ~23px
+            font-weight: normal;
+            font-family: @font-family-sans-serif;
+        }
+
+        h5, .h5 {
+            font-size: 15px; // ~15px
+            line-height: ceil((@line-height-base * 13.99px)); // ~20px
+            font-weight: bold;
+            font-family: @font-family-sans-serif;
+        }
+
+        .bold-17 {
+            font-size: 17px; // ~17px
+            line-height: ceil((@line-height-base * 13.99px)); // ~20px
+            font-weight: bold;
+            font-family: @font-family-sans-serif;
+        }
+
+        .bold-15 {
+            font-size: 15px; // ~15px
+            line-height: ceil((@line-height-base * 13.99px)); // ~20px
+            font-weight: bold;
+            font-family: @font-family-sans-serif;
+        }
+
+        .bold-13 {
+            font-size: 13px !important; // ~13px
+            line-height: ceil((@line-height-base * 12.59px)); // ~18px
+            font-weight: bold;
+            font-family: @font-family-sans-serif;
+        }
+    }
+
+    body {
+        font-size: 15px;
+        line-height: ceil((@line-height-base * 16.09px)); // ~23px
+    }
+
+    p {
+        font-family: @font-family-sans-serif;
+        font-size: 15px !important;
+    }
+
+    p small {
+        font-size: 85%;
+        line-height: ceil((@line-height-base * 12.59px)); // ~18px
+        font-weight: 400;
+        font-family: @font-family-sans-serif;
+    }
+
+    .text-rtl {
+        direction: rtl;
+        unicode-bidi: bidi-override;
+    }
+
+    strong {
+        font-weight: normal;
+        font-family: @font-family-sans-serif;
+    }
+
+}
+//language: arabic
+:lang(ar) {
+}
+//language: chinese
+:lang(zh){
+    .doubleByte();
+}
+//language: chinese simplified
+:lang(zh-Hans){
+    .doubleByte();
+}
+//language: chinese traditional
+:lang(zh-Hant){
+    .doubleByte();
+}
+//language: japanese
+:lang(ja){
+    .doubleByte();
+}
+//language: korean
+:lang(ko){
+    .doubleByte();
+}
+//language: hindi
+:lang(hi){
+    .doubleByte();
+}
+//language: hebrew
+:lang(he){
+    .doubleByte();
+}
+//language: thai
+:lang(th){
+    .doubleByte();
+}
+//language: tamil
+:lang(ta){
+    .doubleByte();
+}
+//language: telugu
+:lang(te){
+    .doubleByte();
+}
+//language: kannada
+:lang(kn){
+    .doubleByte();
+}
+//language: malayalam
+:lang(ml){
+    .doubleByte();
+}
+//language: gujarati
+:lang(gu){
+    .doubleByte();
+}
+//language: bengali
+:lang(bn){
+    .doubleByte();
 }
