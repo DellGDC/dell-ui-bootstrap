@@ -1316,6 +1316,7 @@
 
 //[class^="icon-"],
 //[class*=" icon-"],
+.icon-brand-alienware,
 .icon-brand-dell,
 .icon-brand-dellemc,
 .icon-brand-delltechnologies,
@@ -1334,17 +1335,31 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-brand-dell:before {
-    content: "\e900";
+
+.icon-brand-alienware {
+    &:before {
+        content: "\e904";
+    }
 }
-.icon-brand-dellemc:before {
-    content: "\e901";
+.icon-brand-dell {
+    &:before {
+        content: "\e900";
+    }
 }
-.icon-brand-delltechnologies:before {
-    content: "\e902";
+.icon-brand-dellemc {
+    &:before {
+        content: "\e901";
+    }
 }
-.icon-brand-delltechnologiesVert:before {
-    content: "\e903";
+.icon-brand-delltechnologies {
+    &:before {
+        content: "\e902";
+    }
+}
+.icon-brand-delltechnologiesVert {
+    &:before {
+        content: "\e903";
+    }
 }
 
 
