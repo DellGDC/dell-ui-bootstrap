@@ -11717,6 +11717,10 @@ p small {
   -moz-border-radius-bottomleft: 5px;
   border-bottom-left-radius: 5px;
 }
+.white,
+.well-white {
+  background: #ffffff;
+}
 .white-stroke,
 .well-white-stroke {
   border: 1px solid #cccccc;
