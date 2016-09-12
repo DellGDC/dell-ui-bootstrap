@@ -37,6 +37,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'icon-brand';
+  src: url('fonts/icon-brand.eot?48smpd');
+  src: url('fonts/icon-brand.eot?48smpd#iefix') format('embedded-opentype'), url('fonts/icon-brand.ttf?48smpd') format('truetype'), url('fonts/icon-brand.woff?48smpd') format('woff'), url('fonts/icon-brand.svg?48smpd#icon-brand') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -323,7 +330,7 @@ a {
 a:hover,
 a:focus {
   color: #005a85;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:focus {
   outline: thin dotted;
@@ -404,7 +411,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Roboto-Bold', 'Tanseek Modern Book', 'M Yuen PRC SemiBold', 'M Yuen HK Medium ', 'Rockwell WGL Light', 'David Hadash Sans Medium', 'Motoya Cedar W3', 'Yoon Design - YD Gothic 200 230', 'DilleniaUPC Regular', 'Shree Devanagari 0714 Regular', 'Latha Regular', 'Gautami Regular', 'Tunga Regular', 'Kartika Regular', 'Shruti Regular', 'Vrinda Regular', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+  font-family: 'Roboto-Regular', 'Roboto-Light', 'Cordia New', 'Microsoft Sans Serif', 'Utsaah', 'Devanagari MT', 'Nirmala UI', 'Latha', 'InaiMathi', 'Gautami', 'Telugu Sangam MN', 'Tunga', 'Kannada Sangam MN', 'Kartika', 'Malayalam Sangam MN', 'Shruti', 'Nirmala UI', 'Gujarati MT', 'Gujarati Sangam MN', 'Vrinda', 'Bangla Sangam MN', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Gulim', 'AppleGothic', 'Apple LiGothic', 'LiHei Pro', 'Osaka', 'STHeiti', '华文黑体', 'STXihei', '华文细黑', 'SimHei', '黑体', 'Arial Unicode MS', 'Arial', sans-serif;
   font-weight: normal;
   line-height: 1.1;
   color: inherit;
@@ -2691,7 +2698,7 @@ fieldset[disabled] .btn-link {
 .btn-link:hover,
 .btn-link:focus {
   color: #005a85;
-  text-decoration: none;
+  text-decoration: underline;
   background-color: transparent;
 }
 .btn-link[disabled]:hover,
@@ -9943,6 +9950,7 @@ textarea + .help-block,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-brand-alienware,
 .icon-brand-dell,
 .icon-brand-dellemc,
 .icon-brand-delltechnologies,
@@ -9958,6 +9966,9 @@ textarea + .help-block,
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.icon-brand-alienware:before {
+  content: "\e904";
 }
 .icon-brand-dell:before {
   content: "\e900";
@@ -14673,65 +14684,7 @@ strong {
 }
 .white,
 .well-white {
-  background-color: #ffffff;
-  color: #444444;
-  border-radius: 0;
-}
-.white h2,
-.well-white h2,
-.white h3,
-.well-white h3,
-.white h4,
-.well-white h4,
-.white h5,
-.well-white h5,
-.white h6,
-.well-white h6 {
-  color: #444444;
-}
-.white .panel-heading,
-.well-white .panel-heading {
-  background: #444444;
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-radius-topright: 0px;
-  border-top-right-radius: 0px;
-  -webkit-border-top-left-radius: 0px;
-  -moz-border-radius-topleft: 0px;
-  border-top-left-radius: 0px;
-  color: #ffffff !important;
-}
-.white .panel-heading h2,
-.well-white .panel-heading h2,
-.white .panel-heading h3,
-.well-white .panel-heading h3,
-.white .panel-heading h4,
-.well-white .panel-heading h4,
-.white .panel-heading h5,
-.well-white .panel-heading h5,
-.white .panel-heading h6,
-.well-white .panel-heading h6 {
-  margin: 0;
-  padding-left: 10px;
-}
-.white h4.well-title,
-.well-white h4.well-title,
-.white h4.container-title,
-.well-white h4.container-title {
-  display: inline-block;
-  top: -25px;
-  margin-bottom: -20px;
-  padding: 5px 15px;
-  position: relative;
-  color: #ffffff;
-  background-color: #444444;
-  vertical-align: baseline;
-  white-space: nowrap;
-  -webkit-border-bottom-right-radius: 5px;
-  -moz-border-radius-bottomright: 5px;
-  border-bottom-right-radius: 5px;
-  -webkit-border-bottom-left-radius: 5px;
-  -moz-border-radius-bottomleft: 5px;
-  border-bottom-left-radius: 5px;
+  background: #ffffff;
 }
 .white-stroke,
 .well-white-stroke {
