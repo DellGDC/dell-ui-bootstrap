@@ -9,11 +9,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 //Strong tag is not allowed in dell-ui-only
-h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-    strong {
-        font-weight: normal;
-    }
-}
+//no longer valid as of 9/16/2016
+//h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+//    strong {
+//        font-weight: normal;
+//    }
+//}
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-family: @font-family-serif;
@@ -91,21 +92,21 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     .bold-16 {
         font-size: ceil((@font-size-base * 1.14)); // ~16px
         line-height: ceil((@line-height-base * 13.9px)); // ~20px
-        font-weight: bold;
+        font-weight: 700;
         font-family: Roboto-Regular;
     }
 
     .bold-14 {
         font-size: ceil((@font-size-base)); // ~14px
         line-height: ceil((@line-height-base * 13.9px)); // ~20px
-        font-weight: bold;
+        font-weight: 700;
         font-family: Roboto-Regular;
     }
 
     .bold-12 {
         font-size: 12px; // ~12px
         line-height: ceil((@line-height-base * 10.4px)); // ~15px
-        font-weight: bold;
+        font-weight: 700;
         font-family: Roboto-Regular;
     }
 }
@@ -161,21 +162,21 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     .bold-16 {
         font-size: ceil((@font-size-base * 1.14)); // ~16px
         line-height: ceil((@line-height-base * 13.9px)); // ~20px
-        font-weight: bold;
+        font-weight: 700;
         font-family: Roboto-Regular;
     }
 
     .bold-14 {
         font-size: ceil((@font-size-base)); // ~14px
         line-height: ceil((@line-height-base * 13.9px)); // ~20px
-        font-weight: bold;
+        font-weight: 700;
         font-family: Roboto-Regular;
     }
 
     .bold-12 {
         font-size: 12px; // ~12px
         line-height: ceil((@line-height-base * 10.4px)); // ~15px
-        font-weight: bold;
+        font-weight: 700;
         font-family: Roboto-Regular;
     }
 }
@@ -231,21 +232,21 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     .bold-16 {
         font-size: ceil((@font-size-base * 1.14)); // ~16px
         line-height: ceil((@line-height-base * 13.9px)); // ~20px
-        font-weight: bold;
+        font-weight: 700;
         font-family: Roboto-Regular;
     }
 
     .bold-14 {
         font-size: ceil((@font-size-base)); // ~14px
         line-height: ceil((@line-height-base * 13.9px)); // ~20px
-        font-weight: bold;
+        font-weight: 700;
         font-family: Roboto-Regular;
     }
 
     .bold-12 {
         font-size: 12px; // ~12px
         line-height: ceil((@line-height-base * 10.4px)); // ~15px
-        font-weight: bold;
+        font-weight: 700;
         font-family: Roboto-Regular;
     }
 }
@@ -262,10 +263,7 @@ p small {
     unicode-bidi: bidi-override;
 }
 
-strong {
-    font-weight: normal;
-    font-family: @font-family-serif;
-}
+
 
 
 //doubleByte
@@ -497,11 +495,6 @@ strong {
     .text-rtl {
         direction: rtl;
         unicode-bidi: bidi-override;
-    }
-
-    strong {
-        font-weight: normal;
-        font-family: @font-family-sans-serif;
     }
 
 }
