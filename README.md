@@ -14,12 +14,16 @@ NOTE: For usage with dell.com applications use dell-ui-components package which 
 ### Version history:
 You can install a specific version with 'bower install dell-ui-bootstrap#&lt;version&gt;'
 
-**1.2.6** - September 21, 2016:
-  Removing museo and updating font ramp with Roboto, including Dell EMC font icons...
+**1.2.7** - December 12, 2016:
+  Updating fonts to included fonts versions from production including the .eot, .svg, .woff, woff2
 
 ### Older versions:
 
 ```
+
+**1.2.6** - September 21, 2016:
+  Removing museo and updating font ramp with Roboto, including Dell EMC font icons...
+
 #1.2.5 - Fixed issue with success button being black on focus/active
 
 #1.2.4 - Added missing background to tooltips
