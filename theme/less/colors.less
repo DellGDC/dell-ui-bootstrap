@@ -121,7 +121,7 @@
 .black-stroke,
 .well-black-stroke,
 .panel-black {
-  .well-colors (@white, @black, @black, @link-color);
+  .well-colors (@black, @black, @black, @link-color);
   border: 1px solid @black;
 }
 
@@ -281,6 +281,51 @@
 }
 
 
+//New Dell EMC colors
+//black
+.black,
+.well-black {
+    .well-colors (@black, @white, @white, @white)
+}
+
+.black-stroke,
+.well-black-stroke,
+.panel-black {
+    .well-colors (@black, @text-color, @black, @link-color);
+    border: 1px solid @black;
+}
+
+//carbon
+.carbon,
+.well-carbon {
+    .well-colors (@dell-carbon, @white, @white, @white)
+}
+
+.carbon-stroke,
+.well-carbon-stroke,
+.panel-carbon {
+    .well-colors (@white, @text-color, @dell-carbon, @link-color);
+    border: 1px solid @dell-carbon;
+}
+
+//Dell-gray
+.dell-gray,
+.well-dell-gray {
+    .well-colors (@dell-gray, @white, @white, @white)
+}
+
+.dell-gray-stroke,
+.well-dell-gray-stroke,
+.panel-dell-gray {
+    .well-colors (@white, @text-color, @dell-gray, @link-color;
+    border: 1px solid @dell-carbon;
+}
+
+
+
+
+
+
 // Typographic Colors
 // NOTE: (These colors are not part of standard bootstrap)
 // ==================================================================================
@@ -292,6 +337,9 @@
 .text {
   &-white {
     color: @white !important;
+  }
+  &-black {
+    color: @black !important;
   }
   &-gray-dark {
     color: @dell-gray-dark !important;
