@@ -99,15 +99,6 @@
   border: 1px solid @dell-gray-stroke;
 }
 
-.white,
-.well-white {
-    background: @white;
-}
-
-.white-stroke,
-.well-white-stroke {
-  border: 1px solid @dell-gray-stroke;
-}
 
 .well-transparent-stroke {
   border: 1px solid transparent;
@@ -185,44 +176,7 @@
   .well-colors (@white, @text-color, @dell-green-light, @link-color);
 }
 
-/* Yellow */
-.yellow,
-.well-yellow {
-  .well-colors (@dell-yellow, @white, @white, @white)
-}
 
-.yellow-stroke,
-.well-yellow-stroke,
-.panel-yellow {
-  .well-colors (@white, @text-color, @dell-yellow, @link-color);
-  border: 1px solid @dell-yellow;
-}
-
-/* Orange */
-.orange,
-.well-orange {
-  .well-colors (@dell-orange, @white, @white, @white)
-}
-
-.orange-stroke,
-.well-orange-stroke,
-.panel-orange {
-  border: 1px solid @dell-orange;
-  .well-colors (@white, @text-color, @dell-orange, @link-color)
-}
-
-/* Red */
-.red,
-.well-red {
-  .well-colors (@dell-red, @white, @white, @white)
-}
-
-.red-stroke,
-.well-red-stroke,
-.panel-red {
-  .well-colors (@white, @text-color, @dell-red, @link-color);
-  border: 1px solid @dell-red;
-}
 
 .red-dark,
 .well-red-dark {
@@ -236,18 +190,6 @@
   border: 1px solid @dell-red-dark;
 }
 
-/* Berry */
-.berry,
-.well-berry {
-  .well-colors (@dell-berry, @white, @white, @white)
-}
-
-.berry-stroke,
-.well-berry-stroke,
-.panel-berry {
-  .well-colors (@white, @text-color, @dell-berry, @link-color);
-  border: 1px solid @dell-berry;
-}
 
 /* Purple */
 .purple,
@@ -262,18 +204,7 @@
   border: 1px solid @dell-purple;
 }
 
-/* Teal */
-.teal,
-.well-teal {
-  .well-colors (@dell-teal, @white, @white, @white)
-}
 
-.teal-stroke,
-.well-teal-stroke,
-.panel-teal {
-  .well-colors (@white, @text-color, @dell-teal, @link-color);
-  border: 1px solid @dell-teal;
-}
 
 /* Modify all stroke classes with "thin"*/
 [class$=-stroke].thin {
@@ -282,7 +213,19 @@
 
 
 //New Dell EMC colors
-//black
+/*white*/
+.white,
+.well-white {
+    background: @white;
+}
+
+.white-stroke,
+.well-white-stroke {
+    border: 1px solid @dell-gray-stroke;
+}
+
+
+/*black*/
 .black,
 .well-black {
     .well-colors (@black, @white, @white, @white)
@@ -295,7 +238,7 @@
     border: 1px solid @black;
 }
 
-//carbon
+/*carbon*/
 .carbon,
 .well-carbon {
     .well-colors (@dell-carbon, @white, @white, @white)
@@ -308,7 +251,7 @@
     border: 1px solid @dell-carbon;
 }
 
-//Dell-gray
+/*dell-gray*/
 .dell-gray,
 .well-dell-gray {
     .well-colors (@dell-gray, @white, @white, @white)
@@ -317,13 +260,165 @@
 .dell-gray-stroke,
 .well-dell-gray-stroke,
 .panel-dell-gray {
-    .well-colors (@white, @text-color, @dell-gray, @link-color;
-    border: 1px solid @dell-carbon;
+    .well-colors (@white, @text-color, @dell-gray, @link-color);
+    border: 1px solid @dell-gray;
 }
 
+/*granite*/
+.granite,
+.well-granite {
+    .well-colors (@dell-granite, @white, @white, @white)
+}
 
+.dell-gray-stroke,
+.well-dell-gray-stroke,
+.panel-dell-gray {
+    .well-colors (@white, @text-color, @dell-granite, @link-color);
+    border: 1px solid @dell-granite;
+}
 
+/*quartz*/
+.quartz,
+.well-quartz {
+    .well-colors (@dell-quartz, @white, @white, @white)
+}
 
+.quartz-stroke,
+.well-quartz-stroke,
+.panel-quartz {
+    .well-colors (@white, @text-color, @dell-quartz, @link-color);
+    border: 1px solid @dell-quartz;
+}
+
+/* Teal */
+.teal,
+.well-teal {
+    .well-colors (@dell-teal, @white, @white, @white)
+}
+
+.teal-stroke,
+.well-teal-stroke,
+.panel-teal {
+    .well-colors (@white, @text-color, @dell-teal, @link-color);
+    border: 1px solid @dell-teal;
+}
+
+/* Green */
+.green,
+.well-green {
+    .well-colors (@dell-green, @white, @white, @white)
+}
+
+.green-stroke,
+.well-green-stroke,
+.panel-green {
+    .well-colors (@white, @text-color, @dell-green, @link-color);
+    border: 1px solid @dell-green;
+}
+
+/*chartreuse*/
+.chartreuse,
+.well-chartreuse {
+    .well-colors (@dell-chartreuse, @white, @white, @white)
+}
+
+.chartreuse-stroke,
+.well-chartreuse-stroke,
+.panel-chartreuse {
+    .well-colors (@white, @text-color, @dell-chartreuse, @link-color);
+    border: 1px solid @dell-chartreuse;
+}
+
+/* Yellow */
+.yellow,
+.well-yellow {
+    .well-colors (@dell-yellow, @white, @white, @white)
+}
+
+.yellow-stroke,
+.well-yellow-stroke,
+.panel-yellow {
+    .well-colors (@white, @text-color, @dell-yellow, @link-color);
+    border: 1px solid @dell-yellow;
+}
+
+/* Orange */
+.orange,
+.well-orange {
+    .well-colors (@dell-orange, @white, @white, @white)
+}
+
+.orange-stroke,
+.well-orange-stroke,
+.panel-orange {
+    border: 1px solid @dell-orange;
+    .well-colors (@white, @text-color, @dell-orange, @link-color)
+}
+
+/* coral */
+.coral,
+.well-coral {
+    .well-colors (@dell-coral, @white, @white, @white)
+}
+
+.coral-stroke,
+.well-coral-stroke,
+.panel-coral {
+    border: 1px solid @dell-coral;
+    .well-colors (@white, @text-color, @dell-coral, @link-color)
+}
+
+/* Red */
+.red,
+.well-red {
+    .well-colors (@dell-red, @white, @white, @white)
+}
+
+.red-stroke,
+.well-red-stroke,
+.panel-red {
+    .well-colors (@white, @text-color, @dell-red, @link-color);
+    border: 1px solid @dell-red;
+}
+
+/* Berry */
+.berry,
+.well-berry {
+    .well-colors (@dell-berry, @white, @white, @white)
+}
+
+.berry-stroke,
+.well-berry-stroke,
+.panel-berry {
+    .well-colors (@white, @text-color, @dell-berry, @link-color);
+    border: 1px solid @dell-berry;
+}
+
+/* Purple */
+.purple,
+.well-purple {
+    .well-colors (@dell-purple, @white, @white, @white)
+}
+
+.purple-stroke,
+.well-purple-stroke,
+.panel-purple {
+    .well-colors (@white, @text-color, @dell-purple, @link-color);
+    border: 1px solid @dell-purple;
+}
+
+/* midnight */
+.midnight,
+.well-midnight {
+    .well-colors (@dell-midnight, @white, @white, @white)
+}
+
+.midnight-stroke,
+.well-midnight-stroke,
+.panel-midnight {
+    .well-colors (@white, @text-color, @dell-midnight, @link-color);
+    border: 1px solid @dell-midnight;
+}
 
 
 // Typographic Colors
