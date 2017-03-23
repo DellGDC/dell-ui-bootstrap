@@ -14,12 +14,15 @@ NOTE: For usage with dell.com applications use dell-ui-components package which 
 ### Version history:
 You can install a specific version with 'bower install dell-ui-bootstrap#&lt;version&gt;'
 
-**1.2.8** - March 9, 2017:
-  Updating colors with the new Dell/EMC colors
+**1.2.9** - March 23, 2017:
+  Updating Fonts, recheck APJ double byte sizes
 
 ### Older versions:
 
 ```
+**1.2.8** - March 9, 2017:
+  Updating colors with the new Dell/EMC colors
+
 
 #1.2.7 - December 12, 2016:
   Updating fonts to included fonts versions from production including the .eot, .svg, .woff, woff2
