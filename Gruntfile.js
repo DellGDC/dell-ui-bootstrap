@@ -58,7 +58,8 @@ module.exports = function (grunt) {
     jshint: {
       main: {
         options: {
-            jshintrc: '.jshintrc'
+            jshintrc: '.jshintrc',
+            reporterOutput:""
         },
         src: createFolderGlobs('*.js')
       }
@@ -100,7 +101,7 @@ module.exports = function (grunt) {
           {src: ['theme/variables.less'], dest: 'dist/less/variables.less'},
           {src: ['theme/custom-mixins.less'], dest: 'dist/less/custom-mixins.less'},
           {src: ['theme/custom-variables.less'], dest: 'dist/less/custom-variables.less'},
-          {src: ['demo.html'], dest: 'dist/demo/demo.html'}          
+          {src: ['demo.html'], dest: 'dist/demo/demo.html'}
           //{src: ['bower_components/font-awesome/fonts/**'], dest: 'dist/',filter:'isFile',expand:true}
           //{src: ['bower_components/angular-ui-utils/ui-utils-ieshiv.min.js'], dest: 'dist/'},
           //{src: ['bower_components/select2/*.png','bower_components/select2/*.gif'], dest:'dist/css/',flatten:true,expand:true},
