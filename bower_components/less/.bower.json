@@ -22,15 +22,14 @@
     ".npmignore"
   ],
   "homepage": "https://github.com/less/less.js",
-  "version": "2.6.1",
-  "_release": "2.6.1",
+  "version": "2.7.2",
+  "_release": "2.7.2",
   "_resolution": {
     "type": "version",
-    "tag": "v2.6.1",
-    "commit": "d95e467733558d0dfea2bfb41e724cef585d64a2"
+    "tag": "v2.7.2",
+    "commit": "4903dbf3137c2770fa7eab8924a61a745f3d042f"
   },
   "_source": "https://github.com/less/less.js.git",
   "_target": "^2.6.1",
-  "_originalSource": "less.js",
-  "_direct": true
+  "_originalSource": "less.js"
 }
