@@ -8,31 +8,52 @@
 
 // Grays
 // -------------------------
-@dell-gray-dark:                          #444444;
-@dell-gray:                               #aaaaaa;
+
+@dell-carbon:                             #444444;
+@dell-gray-dark:                          @dell-carbon;
+
+@dell-granite:                            #AAAAAA;
+
+@dell-gray:                               #808080;
+
 @dell-gray-stroke:                        #cccccc;
 @dell-gray-light-stroke:                  #e4e4e4;
 @dell-gray-medium:                        #737373;
-@dell-gray-light:                         #eeeeee;
-@dell-gray-very-light:                    #f9f9f9;
+
+
+@dell-quartz:                             #eeeeee;
+@dell-gray-light:                         @dell-quartz;
+
+@dell-7percent-quartz:                    #f9f9f9;
+@dell-gray-very-light:                    @dell-7percent-quartz;
 @dell-gray-hover:                         #F3F3F3;
 @black:                                   #000000;
 @white:                                   #ffffff;
-
+@dell-moon:                               #767676;
+@dell-sea-blue:                           #006BBD;
 // Accent colors
 // -------------------------
 @dell-blue:                               #007db8;
-@dell-blue-hover:                         #006DAB;
-@dell-dark-blue:                          #00447c;
+//@dell-blue-hover:                         #006DAB;
+
+@dell-midnight:                           #00447c;
+@dell-dark-blue:                          @dell-midnight;
+
 @dell-green:                              #6EA204;
-@dell-green-hover:                        #5D9303;
+//@dell-green-hover:                        #5D9303;
 @dell-green-light:                        #C1D82F;
-@dell-yellow:                             #f2af00;
+@dell-chartreuse:                         #C1D82F;
+
+@dell-yellow:                             #F2AF00;
 @dell-orange:                             #EE6411;
-@dell-red:                                #D74324;
-@dell-red-dark:                           #ce1126;
-@dell-berry:                              #b7295a;
-@dell-purple:                             #6e2585;
+
+@dell-red:                                #CE1126;
+@dell-red-dark:                           @dell-red;
+
+@dell-coral:                              #D74324;
+
+@dell-berry:                              #B7295A;
+@dell-purple:                             #6E2585;
 @dell-teal:                               #42AEAF;
 @dell-alert-yellow:                       #FFFFC9;
 @dell-highlight-blue:                     #CCE5F1;
@@ -41,12 +62,40 @@
 
 // Button colors
 // -------------------------
-@dell-primary-blue:                       #007db8;
-@dell-primary-blue-hover:                 #00447c;
-@dell-success-green:                      #408001;
-@dell-success-green-hover:                #285709;
+
+/* === primary-NON-purchase old less name and new === */
+@dell-primary-non-purchase:               #007db8;
+@dell-primary-non-purchase-hover:         #00447C;
+@dell-primary-non-purchase-disabled:      #5AABD1;
+
+@dell-primary-blue:                       @dell-primary-non-purchase;
+@dell-primary-blue-hover:                 @dell-primary-non-purchase-hover;
+@dell-primary-blue-disabled:              @dell-primary-non-purchase-disabled;
+/* ============================================== */
+
+/* === primary-purchase old less name and new === */
+@dell-primary-purchase:                   #408001;
+@dell-primary-purchase-hover:             #285709;
+@dell-primary-purchase-disabled:          #83AD5A;
+
+@dell-success-green:                      @dell-primary-purchase;
+@dell-success-green-hover:                @dell-primary-purchase-hover;
+@dell-success-green-disabled:             @dell-primary-purchase-disabled;
+/* ============================================== */
+
+/* === secondary-non-purchase old less name and new === */
+@dell-secondary-non-purchase:                   #EEEEEE;
+@dell-secondary-non-purchase-hover:             #DADADA;
+@dell-secondary-non-purchase-disabled:          #f4f4f4;
+@dell-secondary-non-purchase-disabled-stroke:   #D5D5D5;
+
+
+
+/* ==================================================== */
 @dell-default-gray:                       #EEEEEE;
 @dell-default-gray-hover:                 #DADADA;
+@dell-default-gray-hover:                 #DADADA;
+@dell-default-gray-hover:                 #f4f4f4;
 @dell-default-gray-dark-hover:            #333333;
 
 
