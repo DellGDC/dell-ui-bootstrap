@@ -32,10 +32,10 @@
 //** Background color for `<body>`.
 @body-bg:               @white;
 //** Global text color on `<body>`.
-@text-color:            @dell-gray-dark;      // Dell specific brand color
+@text-color:            @black;      // Dell specific brand color
 
 //** Global textual link color.
-@link-color:            @brand-primary;
+@link-color:            #006bbd;
 //** Link hover color set via `darken()` function.
 @link-hover-color:      darken(@link-color, 10%);
 //** Link hover decoration.
@@ -144,17 +144,17 @@
 
 @btn-font-weight:                normal;
 
-@btn-default-color:              #00618f;
-@btn-default-bg:                 @dell-default-gray;
-@btn-default-border:             @dell-gray-stroke;
+@btn-default-color:              @dell-sea-blue;
+@btn-default-bg:                 @dell-quartz;
+@btn-default-border:             @dell-granite;
 
 @btn-primary-color:              @white;
-@btn-primary-bg:                 @dell-primary-blue;
-@btn-primary-border:             darken(@dell-primary-blue, 5%);
+@btn-primary-bg:                 @dell-primary-non-purchase;
+@btn-primary-border:             darken(@dell-primary-non-purchase, 5%);
 
 @btn-success-color:              @white;
-@btn-success-bg:                 @dell-success-green;
-@btn-success-border:             darken(@dell-success-green, 5%);
+@btn-success-bg:                 @dell-primary-purchase;
+@btn-success-border:             darken(@dell-primary-purchase, 5%);
 
 @btn-info-color:                 @white;
 @btn-info-bg:                    @brand-info;
@@ -168,7 +168,7 @@
 @btn-danger-bg:                  @brand-danger;
 @btn-danger-border:              darken(@btn-danger-bg, 5%);
 
-@btn-link-disabled-color:        @gray-light;
+@btn-link-disabled-color:        @dell-moon;
 
 @btn-border-radius-base:		 @border-radius-base;
 @btn-border-radius-large:        @border-radius-base;

@@ -18,6 +18,14 @@
      background-image: none;
        .box-shadow(inset 0 5px 10px rgba(0,0,0,.5));
   }
+
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        cursor: @cursor-disabled;
+        .opacity(1);
+        .box-shadow(none);
+    }
 }
 
 .btn-default {
@@ -27,7 +35,17 @@
   &:active,
   &.active {
     background: @dell-default-gray-hover !important;
+    color: @dell-midnight !important;
   }
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        cursor: @cursor-disabled;
+        .opacity(1);
+        .box-shadow(none);
+        background: @dell-secondary-non-purchase-disabled !important;
+        border-color: #d5d5d5;
+    }
 }
 
 
@@ -39,6 +57,15 @@
   &.active {
     background: @dell-primary-blue-hover !important;
   }
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        cursor: @cursor-disabled;
+        .opacity(1);
+        .box-shadow(none);
+        background: @dell-primary-non-purchase-disabled !important;
+        border-color: @dell-primary-non-purchase-disabled;
+    }
 }
 
 // Success appears as green
@@ -50,6 +77,15 @@
   &.active {
     background: @dell-success-green-hover !important;
   }
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        cursor: @cursor-disabled;
+        .opacity(1);
+        .box-shadow(none);
+        background: @dell-primary-purchase-disabled !important;
+        border-color: @dell-primary-purchase-disabled;
+    }
 }
 
 // Info appears as blue-green
@@ -170,7 +206,7 @@ fieldset[disabled] .btn-default.focus,
 fieldset[disabled] .btn-default:active,
 fieldset[disabled] .btn-default:focus,
 fieldset[disabled] .btn-default:hover {
-    color:  @dell-gray-dark;
+    color:  @dell-moon;
 }
 
 
