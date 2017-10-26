@@ -11,6 +11,13 @@
   border-radius: 0px;
   outline: none !important;
   //!important necessary to remove the focus outline in browsers
+
+  &:active,
+  &.active {
+     outline: 0;
+     background-image: none;
+       .box-shadow(inset 0 5px 10px rgba(0,0,0,.5));
+  }
 }
 
 .btn-default {
@@ -22,6 +29,7 @@
     background: @dell-default-gray-hover !important;
   }
 }
+
 
 .btn-primary {
   .button-variant(@btn-primary-color; @dell-primary-blue; @dell-primary-blue);
