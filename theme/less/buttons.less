@@ -141,6 +141,12 @@
       }
     }
   }
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        cursor: @cursor-disabled;
+        color: @dell-moon;
+    }
 }
 
 .btn[data-loading-text][disabled] {
