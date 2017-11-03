@@ -25,6 +25,7 @@
         cursor: @cursor-disabled;
         .opacity(1);
         .box-shadow(none);
+        //border-color: transparent;
     }
 }
 
@@ -44,7 +45,9 @@
         .opacity(1);
         .box-shadow(none);
         background: @dell-secondary-non-purchase-disabled !important;
-        border-color: #d5d5d5;
+        &:hover {
+            border-color: transparent;
+        }
     }
 }
 
@@ -65,6 +68,9 @@
         .box-shadow(none);
         background: @dell-primary-non-purchase-disabled !important;
         border-color: @dell-primary-non-purchase-disabled;
+        &:hover {
+            border-color: transparent;
+        }
     }
 }
 
@@ -85,6 +91,9 @@
         .box-shadow(none);
         background: @dell-primary-purchase-disabled !important;
         border-color: @dell-primary-purchase-disabled;
+        &:hover {
+            border-color: transparent;
+        }
     }
 }
 
@@ -130,6 +139,7 @@
   &:active,
   &:hover {
     text-decoration: underline;
+
   }
   &.dropdown-toggle {
     &:focus,
@@ -212,7 +222,8 @@ fieldset[disabled] .btn-default.focus,
 fieldset[disabled] .btn-default:active,
 fieldset[disabled] .btn-default:focus,
 fieldset[disabled] .btn-default:hover {
-    color:  @dell-moon;
+    color:  @dell-moon !important;
+    border-color: #D5D5D5 !important;
 }
 
 

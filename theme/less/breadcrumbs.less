@@ -3,10 +3,10 @@
 .breadcrumb {
   padding: 8px 0px;
   background: none;
-  color: @dell-gray-medium;
-  font-size: 12px;
+  color: @dell-carbon;
+  font-size: 14px;
   position: relative;
-  border-radius: none;
+  border-radius: 0;
   > li {
     text-shadow: none;
     &:first-child {
@@ -16,27 +16,28 @@
       }
 
       &:before {
-        font-size: 14px;
+        font-size: 16px;
         content: "\e62b";
         font-family: "icon-small";
         vertical-align: bottom;
       }
     }
     a {
-      color: @dell-gray-medium;
+      color: @dell-carbon;
     }
     + li:before {
       font-family: 'icon-ui';
       content: "\e601";
-      color: @dell-gray-medium;
+      color: @dell-carbon;
       vertical-align: bottom;
     }
     + li:last-child:before {
-      color: @dell-gray;
+      color: @dell-carbon;
     }
   }
 
   > .active {
-    color: @dell-gray;
+    color: @black;
+      font-weight: normal;
   }
 }
