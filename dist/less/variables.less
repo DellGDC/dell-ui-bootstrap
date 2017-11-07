@@ -1,6 +1,6 @@
 // Dell-UI Variables
-// Dell UI Theme v1.2.5 based on Bootstrap v3.3.5
-// DCX, Dell, Inc. 2015
+// Dell UI Theme v1.3.1 based on Bootstrap v3.3.7
+// DCX, Dell, Inc. 2017
 
 //
 // Variables
@@ -32,12 +32,12 @@
 //** Background color for `<body>`.
 @body-bg:               @white;
 //** Global text color on `<body>`.
-@text-color:            @dell-gray-dark;      // Dell specific brand color
+@text-color:            @black;      // Dell specific brand color
 
 //** Global textual link color.
-@link-color:            @brand-primary;
+@link-color:            #006bbd;
 //** Link hover color set via `darken()` function.
-@link-hover-color:      darken(@link-color, 10%);
+@link-hover-color:      @dell-midnight;
 //** Link hover decoration.
 //** Link hover decoration.
 @link-hover-decoration: underline;
@@ -45,8 +45,8 @@
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
-@font-family-sans-serif:    'Roboto-Regular', 'Roboto-Light', 'Cordia New', 'Microsoft Sans Serif', 'Utsaah', 'Devanagari MT', 'Nirmala UI', 'Latha', 'InaiMathi', 'Gautami', 'Telugu Sangam MN', 'Tunga', 'Kannada Sangam MN', 'Kartika', 'Malayalam Sangam MN', 'Shruti', 'Nirmala UI', 'Gujarati MT', 'Gujarati Sangam MN', 'Vrinda', 'Bangla Sangam MN', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Gulim', 'AppleGothic', 'Apple LiGothic', 'LiHei Pro', 'Osaka', 'STHeiti', '华文黑体', 'STXihei', '华文细黑', 'SimHei', '黑体', 'Arial Unicode MS', 'Arial', sans-serif;
-@font-family-serif:         'Roboto-Regular', 'Roboto-Light', 'Cordia New', 'Microsoft Sans Serif', 'Utsaah', 'Devanagari MT', 'Nirmala UI', 'Latha', 'InaiMathi', 'Gautami', 'Telugu Sangam MN', 'Tunga', 'Kannada Sangam MN', 'Kartika', 'Malayalam Sangam MN', 'Shruti', 'Nirmala UI', 'Gujarati MT', 'Gujarati Sangam MN', 'Vrinda', 'Bangla Sangam MN', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Gulim', 'AppleGothic', 'Apple LiGothic', 'LiHei Pro', 'Osaka', 'STHeiti', '华文黑体', 'STXihei', '华文细黑', 'SimHei', '黑体', 'Arial Unicode MS', 'Arial', sans-serif;
+@font-family-sans-serif:    'Roboto-normal', 'Roboto-300', 'Cordia New', 'Microsoft Sans Serif', 'Utsaah', 'Devanagari MT', 'Nirmala UI', 'Latha', 'InaiMathi', 'Gautami', 'Telugu Sangam MN', 'Tunga', 'Kannada Sangam MN', 'Kartika', 'Malayalam Sangam MN', 'Shruti', 'Nirmala UI', 'Gujarati MT', 'Gujarati Sangam MN', 'Vrinda', 'Bangla Sangam MN', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Gulim', 'AppleGothic', 'Apple LiGothic', 'LiHei Pro', 'Osaka', 'STHeiti', '华文黑体', 'STXihei', '华文细黑', 'SimHei', '黑体', 'Arial Unicode MS', 'Arial', sans-serif;
+@font-family-serif:         'Roboto-normal', 'Roboto-300', 'Cordia New', 'Microsoft Sans Serif', 'Utsaah', 'Devanagari MT', 'Nirmala UI', 'Latha', 'InaiMathi', 'Gautami', 'Telugu Sangam MN', 'Tunga', 'Kannada Sangam MN', 'Kartika', 'Malayalam Sangam MN', 'Shruti', 'Nirmala UI', 'Gujarati MT', 'Gujarati Sangam MN', 'Vrinda', 'Bangla Sangam MN', 'Meiryo UI Reg', 'メイリオ Reg', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', 'Gulim', 'AppleGothic', 'Apple LiGothic', 'LiHei Pro', 'Osaka', 'STHeiti', '华文黑体', 'STXihei', '华文细黑', 'SimHei', '黑体', 'Arial Unicode MS', 'Arial', sans-serif;
 
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -87,8 +87,8 @@
 //
 //## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
 
-@padding-base-vertical:     6px;
-@padding-base-horizontal:   12px;
+@padding-base-vertical:     10px;
+@padding-base-horizontal:   15px;
 
 @padding-large-vertical:    10px;
 @padding-large-horizontal:  16px;
@@ -144,17 +144,17 @@
 
 @btn-font-weight:                normal;
 
-@btn-default-color:              #00618f;
-@btn-default-bg:                 @dell-default-gray;
-@btn-default-border:             @dell-gray-stroke;
+@btn-default-color:              @dell-sea-blue;
+@btn-default-bg:                 @dell-quartz;
+@btn-default-border:             @dell-granite;
 
 @btn-primary-color:              @white;
-@btn-primary-bg:                 @dell-primary-blue;
-@btn-primary-border:             darken(@dell-primary-blue, 5%);
+@btn-primary-bg:                 @dell-primary-non-purchase;
+@btn-primary-border:             darken(@dell-primary-non-purchase, 5%);
 
 @btn-success-color:              @white;
-@btn-success-bg:                 @dell-success-green;
-@btn-success-border:             darken(@dell-success-green, 5%);
+@btn-success-bg:                 @dell-primary-purchase;
+@btn-success-border:             darken(@dell-primary-purchase, 5%);
 
 @btn-info-color:                 @white;
 @btn-info-bg:                    @brand-info;
@@ -168,7 +168,7 @@
 @btn-danger-bg:                  @brand-danger;
 @btn-danger-border:              darken(@btn-danger-bg, 5%);
 
-@btn-link-disabled-color:        @gray-light;
+@btn-link-disabled-color:        @dell-moon;
 
 @btn-border-radius-base:		 @border-radius-base;
 @btn-border-radius-large:        @border-radius-base;
@@ -214,7 +214,7 @@
 @input-group-addon-border-color: @input-border;
 
 //** Disabled cursor for form controls and buttons.
-@cursor-disabled:                not-allowed;
+@cursor-disabled:                none;
 //== Dropdowns
 //
 //## Dropdown menu container and contents.
@@ -359,7 +359,7 @@
 @navbar-default-link-hover-bg:             transparent;
 @navbar-default-link-active-color:         @dell-blue;
 @navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);
-@navbar-default-link-disabled-color:       @dell-gray-stroke;
+@navbar-default-link-disabled-color:       @dell-moon;
 @navbar-default-link-disabled-bg:          transparent;
 
 // Navbar brand label
@@ -385,7 +385,7 @@
 @navbar-inverse-link-hover-bg:              transparent;
 @navbar-inverse-link-active-color:          @dell-highlight-blue;
 @navbar-inverse-link-active-bg:             @navbar-inverse-bg;
-@navbar-inverse-link-disabled-color:        #444;
+@navbar-inverse-link-disabled-color:        @dell-moon;
 @navbar-inverse-link-disabled-bg:           transparent;
 
 // Inverted navbar brand label
@@ -407,8 +407,8 @@
 @nav-link-padding:                          10px 15px;
 @nav-link-hover-bg:                         @dell-highlight-blue;
 
-@nav-disabled-link-color:                   @gray-light;
-@nav-disabled-link-hover-color:             @gray-light;
+@nav-disabled-link-color:                   @dell-moon;
+@nav-disabled-link-hover-color:             @dell-moon;
 
 @nav-open-link-hover-color:                 @white;
 
@@ -447,7 +447,7 @@
 @pagination-active-bg:                 @brand-primary;
 @pagination-active-border:             @brand-primary;
 
-@pagination-disabled-color:            @dell-gray-medium;
+@pagination-disabled-color:            @dell-moon;
 @pagination-disabled-bg:               @white;
 @pagination-disabled-border:           @dell-gray-dark;
 
@@ -464,7 +464,7 @@
 @pager-active-bg:                      @pagination-active-bg;
 @pager-active-color:                   @pagination-active-color;
 
-@pager-disabled-color:                 @pagination-disabled-color;
+@pager-disabled-color:                 @dell-moon;
 
 
 //== Jumbotron
@@ -673,11 +673,11 @@
 @list-group-active-text-color:  lighten(@list-group-active-bg, 40%);
 
 //** Text color of disabled list items
-@list-group-disabled-color:      @gray-light;
+@list-group-disabled-color:      @dell-moon;
 //** Background color of disabled list items
 @list-group-disabled-bg:         @gray-lighter;
 //** Text color for content within disabled list items
-@list-group-disabled-text-color: @list-group-disabled-color;
+@list-group-disabled-text-color: @dell-moon;
 
 @list-group-link-color:         #555;
 @list-group-link-hover-color:   @list-group-link-color;
