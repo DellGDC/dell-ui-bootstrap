@@ -1,5 +1,20 @@
 // Lists
 // --------------------------------------------------
+ul {
+
+}
+
+ul, ol {
+    margin-left: -22px;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    ul {
+        margin-left: -11px;
+        padding-bottom: 5px;
+    }
+}
 
 ul.unstyled, ol.unstyled {
   margin-left: 0;
@@ -11,3 +26,56 @@ dt {
   font-weight: normal;
   font-family: @font-family-serif;
 }
+
+.list-unstyled {
+    padding-left: 21px;
+    list-style: none;
+}
+
+
+// Description Lists
+dl {
+    margin-top: 0; // Remove browser default
+    margin-bottom: @line-height-computed;
+}
+dt,
+dd {
+    line-height: @line-height-base;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 0; // Undo browser default
+    //margin-bottom: 5px;
+}
+
+dd + dt {
+    margin-top: 10px;
+    background: red;
+}
+
+// Horizontal description lists
+//
+// Defaults to being stacked without any of the below styles applied, until the
+// grid breakpoint is reached (default of ~768px).
+
+.dl-horizontal {
+    dd {
+        &:extend(.clearfix all); // Clear the floated `dt` if an empty `dd` is present
+    }
+
+    @media (min-width: @dl-horizontal-breakpoint) {
+        dt {
+            float: left;
+            width: (@dl-horizontal-offset - 20);
+            clear: left;
+            text-align: right;
+            .text-overflow();
+        }
+        dd {
+            margin-left: @dl-horizontal-offset;
+        }
+    }
+}
+
