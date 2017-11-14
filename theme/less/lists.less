@@ -32,6 +32,12 @@ dt {
     list-style: none;
 }
 
+.list-inline {
+    padding-left: 0px;
+    list-style: none;
+    margin-left: 0px;
+}
+
 
 // Description Lists
 dl {
@@ -52,7 +58,6 @@ dd {
 
 dd + dt {
     margin-top: 10px;
-    background: red;
 }
 
 // Horizontal description lists
@@ -75,6 +80,9 @@ dd + dt {
         }
         dd {
             margin-left: @dl-horizontal-offset;
+        }
+        dd + dt {
+            margin-top: 0px;
         }
     }
 }

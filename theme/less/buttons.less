@@ -42,6 +42,7 @@
     &[disabled],
     fieldset[disabled] & {
         cursor: @cursor-disabled;
+        pointer-events: none;
         .opacity(1);
         .box-shadow(none);
         background: @dell-secondary-non-purchase-disabled !important;
@@ -64,6 +65,7 @@
     &[disabled],
     fieldset[disabled] & {
         cursor: @cursor-disabled;
+        pointer-events: none;
         .opacity(1);
         .box-shadow(none);
         background: @dell-primary-non-purchase-disabled !important;
@@ -87,6 +89,7 @@
     &[disabled],
     fieldset[disabled] & {
         cursor: @cursor-disabled;
+        pointer-events: none;
         .opacity(1);
         .box-shadow(none);
         background: @dell-primary-purchase-disabled !important;
@@ -127,7 +130,7 @@
 }
 
 .btn-xs {
-  padding: 1px 5px;
+  padding: 3.5px 7px;
 }
 
 
@@ -154,8 +157,8 @@
     &.disabled,
     &[disabled],
     fieldset[disabled] & {
-        cursor: @cursor-disabled;
         color: @dell-moon;
+        text-decoration: none;
     }
 }
 
