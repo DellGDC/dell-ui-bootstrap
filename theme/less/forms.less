@@ -34,9 +34,9 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   height: @input-height-base;
-  color: @gray-darker;
+  color: @dell-moon;
   border-radius: 1px;
-  border: 1px solid @dell-gray-stroke;
+  border: 1px solid @dell-ash;
   padding-left: 5px;
 }
 
@@ -126,7 +126,7 @@ input[type="checkbox"] {
 .checkbox {
   display: block;
   min-height: @line-height-computed; // clear the floating input if there is no label text
-  margin-top: 5px 0 0;
+  margin-top: 5px;
   padding: 7px 7px 7px 0px;
   cursor: pointer;
   label {
@@ -325,7 +325,7 @@ span.uneditable-input {
 
 .help-block,
 .help-inline {
-  color: @gray; // same as body text for dell-ui
+  color: @dell-moon; // same as body text for dell-ui
 }
 
 // INPUT GROUPS
@@ -937,3 +937,11 @@ textarea,
 ////////////////////////////
 // spinbox code ends here //
 ////////////////////////////
+
+
+label {
+    display: inline-block;
+    max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
+    margin-bottom: 0px;
+    font-weight: bold;
+}
