@@ -35,9 +35,10 @@ input[type="color"],
 .uneditable-input {
   height: @input-height-base;
   color: @dell-moon;
+  font-style: italic;
   border-radius: 1px;
   border: 1px solid @dell-ash;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 // Everything else
@@ -271,7 +272,7 @@ select:focus:invalid {
 }
 
 span.uneditable-input {
-  padding-top: 7px;
+  padding-top: 10px;
 }
 
 // FORM ACTIONS
@@ -493,6 +494,7 @@ input.search-query {
 // Common properties
 .form-group {
   margin-right: 5px;
+    margin-bottom: 15px;
   & .alert {
     margin-bottom: 5px;
     text-shadow: none;
@@ -944,4 +946,42 @@ label {
     max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
     margin-bottom: 0px;
     font-weight: bold;
+    color: @dell-carbon;
+}
+
+// Note: Neither radios nor checkboxes can be readonly.
+input[type="radio"],
+input[type="checkbox"] {
+    &[disabled],
+    &.disabled,
+    fieldset[disabled] & {
+        cursor: pointer;
+    }
+}
+
+// These classes are used on elements with <label> descendants
+.radio,
+.checkbox {
+    &.disabled,
+    fieldset[disabled] & {
+        label {
+            cursor: default;
+        }
+    }
+}
+
+// These classes are used directly on <label>s
+.radio-inline,
+.checkbox-inline {
+    &.disabled,
+    fieldset[disabled] & {
+        cursor: default;
+    }
+}
+
+.radio.disabled,
+.checkbox.disabled,
+.radio-inline.disabled,
+.checkbox-inline.disabled {
+    pointer-events: none;
 }
