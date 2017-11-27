@@ -6,20 +6,20 @@
 .close {
     float: right;
     font-size: (@font-size-base * 1.5);
-    font-weight: @close-font-weight;
+    font-weight: 300;
     line-height: 1;
-    color: @close-color;
+    color: @black;
     text-shadow: @close-text-shadow;
     // the only change is to the .opacity
-    .opacity(.55);
+    .opacity(1);
 
     &:hover,
     &:focus {
-        color: @close-color;
-        text-decoration: none;
+        color: @black;
+        text-decoration: underline;
         cursor: pointer;
         // the only change is to the .opacity
-        .opacity(.8);
+        .opacity(1);
     }
 
 }
