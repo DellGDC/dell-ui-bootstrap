@@ -6882,7 +6882,7 @@ button.close {
 /* Component LESS */
 .alert {
   color: #000000;
-  padding: 10px 35px 10px 40px;
+  padding: 10px 35px 10px 45px;
   margin-bottom: 20px;
   text-shadow: none;
   background: #ffffc9;
@@ -6944,6 +6944,7 @@ button.close {
   padding-right: 10px;
   padding-left: 10px;
   margin-top: -5px;
+  font-size: 28px;
 }
 .alert-info:before {
   content: "\e604";
@@ -6957,6 +6958,7 @@ button.close {
   padding-right: 10px;
   padding-left: 10px;
   margin-top: -5px;
+  font-size: 28px;
 }
 .alert-success:before {
   content: "\e611";
@@ -6970,6 +6972,7 @@ button.close {
   padding-right: 10px;
   padding-left: 10px;
   margin-top: -5px;
+  font-size: 28px;
 }
 .alert-warning:before {
   content: "\e605";
@@ -6983,6 +6986,7 @@ button.close {
   padding-right: 10px;
   padding-left: 10px;
   margin-top: -5px;
+  font-size: 28px;
 }
 .alert-block {
   padding-top: 14px;
