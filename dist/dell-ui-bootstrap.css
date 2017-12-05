@@ -6882,7 +6882,7 @@ button.close {
 /* Component LESS */
 .alert {
   color: #000000;
-  padding: 10px 35px 10px 45px;
+  padding: 10px 35px 20px 45px;
   margin-bottom: 20px;
   text-shadow: none;
   background: #ffffc9;
