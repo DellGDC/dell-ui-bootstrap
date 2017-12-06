@@ -6882,7 +6882,7 @@ button.close {
 /* Component LESS */
 .alert {
   color: #000000;
-  padding: 10px 35px 20px 45px;
+  padding: 10px 35px 15px 45px;
   margin-bottom: 20px;
   text-shadow: none;
   background: #ffffc9;
@@ -6898,6 +6898,11 @@ button.close {
 }
 .alert :last-child {
   margin-bottom: 8px;
+}
+.alert > p,
+.alert > ul {
+  margin-bottom: 0;
+  margin-top: 5px;
 }
 .alert > .alert-danger,
 .alert > .alert-error {

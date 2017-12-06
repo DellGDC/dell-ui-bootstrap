@@ -12,7 +12,7 @@
 
 .alert {
   color: @black;
-  padding: 10px 35px 20px 45px;
+  padding: 10px 35px 15px 45px;
   margin-bottom: floor((@line-height-base * 14px)); // ~20px
   text-shadow: none;
   background: @dell-alert-yellow;
@@ -32,9 +32,13 @@
   :last-child {
     margin-bottom: 8px;
   }
-  &.close {
+    // Improve alignment and spacing of inner content
+   > p,
+   > ul {
+       margin-bottom: 0;
+       margin-top: 5px;
+   }
 
-  }
   > .alert-danger,
   > .alert-error {
     background: transparent;
