@@ -7240,6 +7240,7 @@ fieldset[disabled] .btn-primary.focus {
 .btn-primary.disabled,
 .btn-primary[disabled],
 fieldset[disabled] .btn-primary {
+  color: #ffffff;
   cursor: none;
   pointer-events: none;
   opacity: 1;
@@ -7320,6 +7321,7 @@ fieldset[disabled] .btn-success.focus {
 .btn-success.disabled,
 .btn-success[disabled],
 fieldset[disabled] .btn-success {
+  color: #ffffff;
   cursor: none;
   pointer-events: none;
   opacity: 1;
@@ -7598,6 +7600,100 @@ fieldset[disabled] .btn-default:focus,
 fieldset[disabled] .btn-default:hover {
   color: #767676 !important;
   border-color: #D5D5D5 !important;
+}
+.btn-toolbar > .btn-group {
+  margin-bottom: 5px;
+}
+a.btn.btn-success.disabled,
+fieldset[disabled] a.btn.btn-success,
+a.btn.btn-primary.disabled,
+fieldset[disabled] a.btn.btn-primary {
+  color: #ffffff !important;
+}
+a.btn.btn-hotspot {
+  vertical-align: middle;
+  text-align: center;
+  border: 2px solid #ffffff;
+  background: #007db8;
+  padding: 3px 8px 4px 9px;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.65);
+  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.65);
+}
+a.btn.btn-hotspot:hover,
+a.btn.btn-hotspot:focus a.btn.btn-hotspot:active,
+a.btn.btn-hotspot.active {
+  background: #007db8;
+  border: 2px solid #cce5f1;
+  -webkit-box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.65);
+  box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.65);
+}
+a.btn.btn-hotspot i {
+  font-size: 10px;
+}
+a.btn.btn-help {
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px 5px 2px 5px;
+}
+a.btn.btn-help:hover,
+a.btn.btn-help:focus,
+a.btn.btn-help:active,
+a.btn.btn-help.active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+a.btn.btn-help:hover i,
+a.btn.btn-help:focus i,
+a.btn.btn-help:active i,
+a.btn.btn-help.active i {
+  color: #00447c !important;
+}
+.btn-video {
+  font-size: 60px !important;
+  vertical-align: middle;
+  text-align: center;
+  background: #ffffff;
+}
+.btn-video:hover,
+.btn-video:focus,
+.btn-video:active,
+.btn-video.active {
+  background: #333333;
+  border: 0;
+  outline: none !important;
+}
+.nav-icons > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-icons > li > a {
+  margin-right: 0;
+  line-height: 1.428571429;
+  border: 1px solid transparent;
+  border-radius: 1px 1px 0 0;
+}
+.nav-icons > li.active > a:hover,
+.nav-icons > li.active > a:focus {
+  color: #444444;
+  background-color: #ffffff;
+  cursor: default;
+}
+.nav-icons > li:first-of-type {
+  border-right: 1px solid #cccccc;
+}
+.nav-icons.nav-right {
+  margin-top: 30px;
+  float: none !important;
+}
+.nav-icons.nav-right > li {
+  float: right;
+}
+.nav-icons.nav-right > li:first-of-type {
+  border-left: 1px solid #cccccc;
+  border-right: none;
 }
 .carousel .carousel-control {
   position: absolute;

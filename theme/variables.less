@@ -12,14 +12,14 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-@gray-darker:            @dell-gray-dark;       // Dell@btn-border-radius-base specific brand color
-@gray-dark:              @dell-gray-medium;     // Dell specific brand color
+@gray-darker:            @dell-carbon;       // Dell@btn-border-radius-base specific brand color
+@gray-dark:              @dell-ash;     // Dell specific brand color
 @gray:                   @dell-gray;            // Dell specific brand color
-@gray-light:             @dell-gray-light;      // Dell specific brand color
-@gray-lighter:           @dell-gray-very-light; // Dell specific brand color
+@gray-light:             @dell-quartz;      // Dell specific brand color
+@gray-lighter:           @dell-mist; // Dell specific brand color
 
-@brand-primary:          @dell-primary-blue;    // Dell specific brand color
-@brand-success:          @dell-success-green;   // Dell specific brand color
+@brand-primary:          @dell-primary-non-purchase;    // Dell specific brand color
+@brand-success:          @dell-primary-purchase;   // Dell specific brand color
 @brand-info:             @dell-teal;            // Dell specific brand color
 @brand-warning:          @dell-orange;          // Dell specific brand color
 @brand-danger:           @dell-red;             // Dell specific brand color
@@ -129,7 +129,7 @@
 //** Default background color used for all tables.
 @table-bg:                      transparent;
 //** Background color used for `.table-striped`.
-@table-bg-accent:               @dell-gray-light;
+@table-bg-accent:               @dell-quartz;
 //** Background color used for `.table-hover`.
 @table-bg-hover:                @dell-highlight-blue;
 @table-bg-active:               @table-bg-hover;
@@ -180,10 +180,10 @@
 //** `<input>` background color
 @input-bg:                       @white;
 //** `<input disabled>` background color
-@input-bg-disabled:              @gray-lighter;
+@input-bg-disabled:              @dell-mist;
 
 //** Text color for `<input>`s
-@input-color:                    @dell-gray-dark;
+@input-color:                    @dell-carbon;
 //** `<input>` border color
 @input-border:                   @dell-gray-stroke;
 //** `<input>` border radius
@@ -206,10 +206,10 @@
 @input-height-small:             (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2);
 
 @legend-color:                   @gray-dark;
-@legend-border-color:            @dell-gray-light;
+@legend-border-color:            @dell-quartz;
 
 //** Background color for textual input addons
-@input-group-addon-bg:           @gray-lighter;
+@input-group-addon-bg:           @dell-mist;
 //** Border color for textual input addons
 @input-group-addon-border-color: @input-border;
 
@@ -226,7 +226,7 @@
 //** Dropdown menu `border-color` **for IE8**.
 @dropdown-fallback-border:       @dell-gray-stroke;
 //** Divider color for between dropdown items.
-@dropdown-divider-bg:            @dell-gray-light;
+@dropdown-divider-bg:            @dell-quartz;
 
 //** Dropdown link text color.
 @dropdown-link-color:            @gray-dark;
@@ -415,10 +415,10 @@
 //== Tabs
 @nav-tabs-border-color:                     @dell-gray-stroke;
 
-@nav-tabs-link-hover-border-color:          @gray-lighter;
+@nav-tabs-link-hover-border-color:          @dell-mist;
 
 @nav-tabs-active-link-hover-bg:             @white;
-@nav-tabs-active-link-hover-color:          @dell-gray-dark;
+@nav-tabs-active-link-hover-color:          @dell-carbon;
 @nav-tabs-active-link-hover-border-color:   @dell-blue;
 
 @nav-tabs-justified-link-border-color:            @dell-gray-stroke;
@@ -449,7 +449,7 @@
 
 @pagination-disabled-color:            @dell-moon;
 @pagination-disabled-bg:               @white;
-@pagination-disabled-border:           @dell-gray-dark;
+@pagination-disabled-border:           @dell-carbon;
 
 //== Pager
 //
@@ -473,7 +473,7 @@
 
 @jumbotron-padding:              30px;
 @jumbotron-color:                inherit;
-@jumbotron-bg:                   @gray-lighter;
+@jumbotron-bg:                   @dell-mist;
 @jumbotron-heading-color:        inherit;
 @jumbotron-font-size:            ceil((@font-size-base * 1.5));
 @jumbotron-heading-font-size:    32px;
@@ -506,7 +506,7 @@
 //** Tooltip max width
 @tooltip-max-width:           125px;
 //** Tooltip text color
-@tooltip-color:               @dell-gray-dark;
+@tooltip-color:               @dell-carbon;
 //** Tooltip background color
 @tooltip-bg:                  @white;
 @tooltip-opacity:             1;
@@ -675,7 +675,7 @@
 //** Text color of disabled list items
 @list-group-disabled-color:      @dell-moon;
 //** Background color of disabled list items
-@list-group-disabled-bg:         @gray-lighter;
+@list-group-disabled-bg:         @dell-mist;
 //** Text color for content within disabled list items
 @list-group-disabled-text-color: @dell-moon;
 
@@ -698,7 +698,7 @@
 @panel-inner-border:          @dell-gray-stroke;
 @panel-footer-bg:             #f5f5f5;
 
-@panel-default-text:          @dell-carbon;
+@panel-default-text:         @dell-carbon;
 @panel-default-border:        @dell-granite;
 @panel-default-heading-bg:    @dell-quartz;
 
@@ -756,8 +756,8 @@
 
 @badge-color:                 @white;
 //** Linked badge text color on hover
-@badge-link-hover-color:      darken(@dell-gray-dark, 5%);
-@badge-bg:                    @dell-gray-dark;
+@badge-link-hover-color:      darken(@dell-carbon, 5%);
+@badge-bg:                    @dell-carbon;
 
 //** Badge text color in active nav link
 @badge-active-color:          @link-color;
@@ -778,7 +778,7 @@
 //** Breadcrumb background color
 @breadcrumb-bg:                 transparent;
 //** Breadcrumb text color
-@breadcrumb-color:              @dell-gray-medium;
+@breadcrumb-color:              @dell-ash;
 //** Text color of current page in the breadcrumb
 @breadcrumb-active-color:       @dell-gray;
 //** Textual separator for between breadcrumb elements
@@ -807,7 +807,7 @@
 //##
 
 @close-font-weight:           bold;
-@close-color:                 @dell-gray-dark;
+@close-color:                 @dell-carbon;
 @close-text-shadow:           0 1px 0 @white;
 
 
@@ -836,15 +836,15 @@
 //** Abbreviations and acronyms border color
 @abbr-border-color:           @gray-light;
 //** Headings small color
-@headings-small-color:        @dell-gray-dark;
+@headings-small-color:        @dell-carbon;
 //** Blockquote small color
-@blockquote-small-color:      @dell-gray-medium;
+@blockquote-small-color:      @dell-ash;
 //** Blockquote font size
 @blockquote-font-size:        (@font-size-base * 1.25);
 //** Blockquote border color
-@blockquote-border-color:     @dell-gray-light;
+@blockquote-border-color:     @dell-quartz;
 //** Page header border color
-@page-header-border-color:    @gray-lighter;
+@page-header-border-color:    @dell-mist;
 
 
 //== Miscellaneous
