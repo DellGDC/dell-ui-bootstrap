@@ -7572,6 +7572,12 @@ fieldset[disabled] .btn-link {
   padding-left: 12px;
   padding-right: 12px;
 }
+.btn.btn-primary.dropdown-toggle {
+  border-left: 1px solid #00447c;
+}
+.btn.btn-success.dropdown-toggle {
+  border-left: 1px solid #00447c;
+}
 .btn-default.active,
 .btn-default.focus,
 .btn-default:active,
