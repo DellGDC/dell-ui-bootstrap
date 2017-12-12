@@ -3779,7 +3779,7 @@ tbody.collapse.in {
   box-shadow: none;
 }
 .btn .caret {
-  margin-left: 0;
+  margin-left: 2px;
 }
 .btn-lg .caret {
   border-width: 5px 5px 0;
@@ -7564,19 +7564,23 @@ fieldset[disabled] .btn-link {
   left: -6px;
   top: 0;
 }
-.btn-group > .btn + .dropdown-toggle {
+.btn-group > .btn.dropdown-toggle {
   padding-left: 5px;
   padding-right: 8px;
+}
+.btn-group > .btn.dropdown-toggle:after {
+  padding-left: 8px;
+  padding-right: 5px;
 }
 .btn-group > .btn-lg + .dropdown-toggle {
   padding-left: 12px;
   padding-right: 12px;
 }
 .btn.btn-primary.dropdown-toggle {
-  border-left: 1px solid #00447c;
+  border-left: 1px solid #006594;
 }
 .btn.btn-success.dropdown-toggle {
-  border-left: 1px solid #00447c;
+  border-left: 1px solid #2e5d01;
 }
 .btn-default.active,
 .btn-default.focus,
@@ -7930,7 +7934,7 @@ a[data-toggle="collapse"] {
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-menu li > a .dropdown-submenu:hover > a {
-  color: #006bbd;
+  color: #000000;
   text-decoration: none;
   background-color: #cce5f1;
   background-image: none;
