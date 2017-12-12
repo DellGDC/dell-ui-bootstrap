@@ -16534,6 +16534,9 @@ p small {
 .text-white {
   color: #ffffff !important;
 }
+.text-black {
+  color: #000000 !important;
+}
 .text-gray-dark {
   color: #444444 !important;
 }
