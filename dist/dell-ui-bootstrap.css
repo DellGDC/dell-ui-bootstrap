@@ -6959,7 +6959,7 @@ button.close {
   position: absolute;
   left: 10px;
   font-size: 20px;
-  left: 0px;
+  left: 0;
   padding-right: 10px;
   padding-left: 10px;
   margin-top: -5px;
@@ -6983,7 +6983,7 @@ button.close {
   content: "\e605";
   font-family: "icon-small";
   float: left;
-  color: #ce1126;
+  color: #ee6411;
   position: absolute;
   left: 10px;
   font-size: 20px;
@@ -7820,7 +7820,6 @@ a.btn.btn-help.active i {
 .close:hover,
 .close:focus {
   color: #000000;
-  text-decoration: underline;
   cursor: pointer;
   opacity: 1;
   filter: alpha(opacity=100);
