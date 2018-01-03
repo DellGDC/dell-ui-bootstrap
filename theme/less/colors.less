@@ -41,14 +41,14 @@
 /* Grays */
 .gray-dark,
 .well-gray-dark {
-  .well-colors (@dell-gray-dark, @white, @white, @white)
+  .well-colors (@dell-carbon, @white, @white, @white)
 }
 
 .gray-dark-stroke,
 .well-gray-dark-stroke,
 .panel-gray-dark {
-  .well-colors (@white, @dell-gray-dark, @gray-darker, @dell-blue);
-  border: 1px solid @dell-gray-dark;
+  .well-colors (@white, @dell-carbon, @gray-darker, @dell-blue);
+  border: 1px solid @dell-carbon;
 }
 
 .gray-medium,
@@ -87,18 +87,45 @@
   .well-colors (@white, @dell-gray, @gray-light, @link-color)
 }
 
-.gray-very-light,
-.well-gray-very-light {
-  .well-colors (@dell-gray-very-light, @text-color, @gray-darker, @link-color)
+/* ash */
+.ash,
+.well-ash {
+    .well-colors (@dell-ash, @text-color, @dell-ash, @link-color)
 }
 
-.gray-very-light-stroke,
-.well-gray-very-light-stroke,
-.panel-gray-very-light {
-  .well-colors (@dell-gray-very-light, @text-color, @dell-gray-very-light, @dell-gray);
-  border: 1px solid @dell-gray-stroke;
+.ash-stroke,
+.well-ash-stroke,
+.panel-ash-light {
+    .well-colors (@dell-ash, @text-color, @dell-ash, @dell-ash);
+    border: 1px solid @dell-ash;
 }
 
+/* moon */
+.moon,
+.well-moon {
+    .well-colors (@dell-moon, @text-color, @dell-moon, @link-color)
+}
+
+.moon-stroke,
+.well-moon-light {
+    .well-colors (@dell-moon, @text-color, @dell-moon, @dell-moon);
+    border: 1px solid @dell-moon;
+}
+
+/* mist */
+.mist,
+.well-mist {
+  .well-colors (@dell-mist, @text-color, @gray-darker, @link-color)
+}
+
+.mist-stroke,
+.well-mist-stroke,
+.panel-mist-light {
+  .well-colors (@dell-mist, @text-color, @dell-mist, @dell-gray);
+  border: 1px solid @dell-ash;
+}
+
+/* white */
 .white,
 .well-white {
     background: @white;
@@ -113,6 +140,7 @@
   border: 1px solid transparent;
 }
 
+/* black */
 .black,
 .well-black {
   .well-colors (@black, @white, @white, @white)
@@ -121,8 +149,21 @@
 .black-stroke,
 .well-black-stroke,
 .panel-black {
-  .well-colors (@white, @black, @black, @link-color);
+  .well-colors (@black, @white, @black, @link-color);
   border: 1px solid @black;
+}
+
+/* carbon */
+.carbon,
+.well-carbon {
+    .well-colors (@dell-carbon, @white, @white, @white)
+}
+
+.carbon-stroke,
+.well-carbon-stroke,
+.panel-crbon {
+    .well-colors (@white, @text-color, @dell-carbon, @link-color);
+    border: 1px solid @dell-carbon;
 }
 
 /* Blue */
@@ -142,22 +183,15 @@
   border: 1px solid @dell-blue;
 }
 
-/* Dark Blue */
-.dark-blue,
-.well-dark-blue {
-  .well-colors (@dell-dark-blue, @white, @white, @white)
+/* midnight */
+.midnight,
+.well-midnight {
+  .well-colors (@dell-midnight, @white, @white, @white)
 }
 
-.dark-blue a,
+.midnight a,
 .well-blue a {
   color: @white;
-}
-
-.dark-blue-stroke,
-.well-dark-blue-stroke,
-.panel-dark-blue {
-  .well-colors (@white, @text-color, @dell-dark-blue, @link-color);
-  border: 1px solid @dell-dark-blue;
 }
 
 /* Green */
@@ -211,6 +245,18 @@
   .well-colors (@white, @text-color, @dell-orange, @link-color)
 }
 
+/* coral */
+.coral,
+.well-coral {
+    .well-colors (@dell-coral, @white, @white, @white)
+}
+.coral-stroke,
+.well-coral-stroke,
+.panel-coral {
+    .well-colors (@white, @text-color, @dell-coral, @link-color);
+    border: 1px solid @dell-coral;
+}
+
 /* Red */
 .red,
 .well-red {
@@ -223,18 +269,18 @@
   .well-colors (@white, @text-color, @dell-red, @link-color);
   border: 1px solid @dell-red;
 }
-
-.red-dark,
-.well-red-dark {
-  .well-colors (@dell-red, @white, @white, @white)
-}
-
-.red-dark-stroke,
-.well-red-dark-stroke,
-.panel-red-dark {
-  .well-colors (@white, @text-color, @dell-red, @link-color);
-  border: 1px solid @dell-red;
-}
+//
+//.red-dark,
+//.well-red-dark {
+//  .well-colors (@dell-red, @white, @white, @white)
+//}
+//
+//.red-dark-stroke,
+//.well-red-dark-stroke,
+//.panel-red-dark {
+//  .well-colors (@white, @text-color, @dell-red, @link-color);
+//  border: 1px solid @dell-red;
+//}
 
 /* Berry */
 .berry,
@@ -281,6 +327,10 @@
 }
 
 
+
+
+
+
 // Typographic Colors
 // NOTE: (These colors are not part of standard bootstrap)
 // ==================================================================================
@@ -308,13 +358,18 @@
   &-dark-blue {
     color: @dell-dark-blue !important;
   }
-
+  &-midnight {
+    color: @dell-midnight !important;
+  }
   &-green {
     color: @dell-green !important;
   }
 
   &-orange {
     color: @dell-orange !important;
+  }
+  &-coral {
+    color: @dell-coral !important;
   }
   &-red {
     color: @dell-red !important;
@@ -358,6 +413,9 @@
   &-dark-blue {
     border-top: 1px solid @dell-dark-blue;
   }
+    &-midnight {
+        border-top: 1px solid @dell-midnight;
+    }
   &-yellow {
     border-top: 1px solid @dell-yellow
   }
@@ -372,6 +430,9 @@
   }
   &-orange {
     border-top: 1px solid @dell-orange;
+  }
+  &-coral {
+    border-top: 1px solid @dell-coral;
   }
   &-red {
     border-top: 1px solid @dell-red;
